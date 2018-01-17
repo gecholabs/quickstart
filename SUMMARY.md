@@ -1,3 +1,6 @@
-# Table of content
+# Summary
 
-* [First Chapter](chapter1.md)
+* [Preface](preface.md)
+* [Introduction](README.md)
+* [CH1 - Getting Started](ch1-getting-started.md)
+
