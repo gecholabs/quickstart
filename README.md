@@ -1,6 +1,6 @@
 # Introduction
 
-### **Why learn the “full-stack”?**
+### **Why learn the “full-stack” for data science?**
 
 The “stack” describes the components and tools with which a practicing data scientist interacts from end-to-end: spanning servers to visualizations and everything in between. There are specialist trades along on the way e.g., devops engineers, UX designers, analysts, programmers, DBAs, software engineers … the list is long. I don’t claim to know all the things, but I’ve managed teams on large data science projects that cover most areas.
 
@@ -8,7 +8,7 @@ For managers or founders cultivating projects in this space, I believe that it i
 
 ### **Opinions**
 
-I express strongly held opinions in this guide. There are many ways to skin a cat but I’ve found the tools I describe to be effective and work well together. These will provide a good starting point for your data explorations; however, you may eventually come to prefer alternative editors, package managers, etc… and the landscape is constantly evolving.**  
+I express strongly held opinions in this guide. There are many ways to skin a cat but I’ve found the tools I describe to be effective and work well together. These will provide a good starting point for your data explorations; however, you may eventually come to prefer alternative editors, package managers, etc… and the landscape is constantly evolving.**    
 **
 
 ### **Core components?**
@@ -45,9 +45,7 @@ to explore data and annotate your work
 
 ...everything else is pretty much optional
 
-
-
-**TL;DR** this is a choose-your-own-adventure guide to data science; please cherry pick and choose per your interests, but do install the core components first \(Homebrew, Python, Atom, Git, and Jupyter\)!**  
+**TL;DR** this is a choose-your-own-adventure guide to data science; please cherry pick and choose per your interests, but do install the core components first \(Homebrew, Python, Atom, Git, and Jupyter\)!**    
 **
 
 **Caveats**

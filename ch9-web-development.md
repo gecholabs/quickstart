@@ -1,6 +1,4 @@
-# CH 9 - Web Development and services
+# CH 9 - Web development and services
 
 NodeJS
-
-
 
