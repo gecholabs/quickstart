@@ -6,4 +6,5 @@
 * [CH2 - Tools expanded](ch2-tools-expanded.md)
 * [CH3 - Scripting languages](ch3-scripting-languages.md)
 * [CH4 - Get me some data](ch4-get-me-some-data.md)
+* [CH5 - machine intelligence](ch5-machine-intelligence.md)
 
