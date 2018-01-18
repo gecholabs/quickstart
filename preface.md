@@ -5,8 +5,7 @@ This is a guide to the tools required for getting started with data science: a c
 **How to use?**
 
 1. Follow the steps
-2. Do the
-   [core setup](#)
+2. Do the [core setup](#)
 3. Jump around try things out
 
 ---
