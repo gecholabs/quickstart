@@ -1,6 +1,6 @@
 # **Scripting \(programming\) languages**
 
-I got to Python via R. Specifically, I wrote my dissertation exclusively in R. When I was trying to develop a web interface to my results \(pre R-Shiny\), I stumbled across Ruby on Rails and RSRuby. As I followed the trail, I realized it was a fork of R2Py and wham, discovered Python. My first experience of PyCon was like walking into Lothlórien. It felt like an epiphany at the time and I’ve never looked back.**  
+I got to Python via R. Specifically, I wrote my dissertation exclusively in R. When I was trying to develop a web interface to my results \(pre R-Shiny\), I stumbled across Ruby on Rails and RSRuby. As I followed the trail, I realized it was a fork of R2Py and wham, discovered Python. My first experience of PyCon was like walking into Lothlórien. It felt like an epiphany at the time and I’ve never looked back.**    
 **
 
 ![](https://lh4.googleusercontent.com/u-GWg5BExS9Zh0f5IH8iqhN6GhtGouxala-Lhzf1BA4sMdNfiOfRN917D6kWJk-z8q35OcLLRq-tvuZApNqYZhv3Axz5-VcItyBdI9kUP7TfFjJyfYHQSMjcP1FHMgcYXhefFibX)
@@ -48,7 +48,7 @@ I consider Python to be more versatile for my use case as a full-stack data scie
 conda install rpy2Jupyter notebook
 ```
 
-**In Jupyter \(via browser at http://localhost:8888/\)**
+**In Jupyter \(via browser at **[http://localhost:8888/\](http://localhost:8888/\)**\)**
 
 ```
 %load_ext rpy2.ipython 
@@ -78,7 +78,7 @@ There is a new 2nd edition available as of Sept 25, 2017. I can't recommend this
 
 **And, an intro to Pandas**
 
-[**https://pandas.pydata.org/pandas-docs/stable/10min.html**](https://pandas.pydata.org/pandas-docs/stable/10min.html)**  
+[**https://pandas.pydata.org/pandas-docs/stable/10min.html**](https://pandas.pydata.org/pandas-docs/stable/10min.html)**    
 **
 
 Combining Python, DataFrames and R
@@ -105,14 +105,12 @@ Now run this code in a Jupyter notebook
 
 > Source** **[**https://ragrawal.wordpress.com/2016/08/03/using-r-ggplot-within-ipython-notebook/**](https://ragrawal.wordpress.com/2016/08/03/using-r-ggplot-within-ipython-notebook/)
 
-
-
 ## **Javascript**
 
-**  
+**    
 **
 
-## **Scala** 
+## **Scala**
 
 
 
