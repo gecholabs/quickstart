@@ -15,5 +15,6 @@
 * [CH11 - Containerization](ch11-containerization.md)
 * [CH12 - Data Security](ch12-data-security.md)
 * REFS
-* [Contributors](contributors.md)
+* [AUTHORS](authors.md)
+* [CHANGES](changes.md)
 
