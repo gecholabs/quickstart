@@ -1,17 +1,17 @@
 # CH 3 - **Scripting \(programming\) languages**
 
-I got to Python via R. Specifically, I wrote my dissertation exclusively in R. When I was trying to develop a web interface to my results \(pre R-Shiny\), I stumbled across Ruby on Rails and RSRuby. As I followed the trail, I realized it was a fork of R2Py and wham, discovered Python. My first experience of PyCon was like walking into Lothlórien. It felt like an epiphany at the time and I’ve never looked back.**      
+I found the Python language via R. Specifically, I did the analyses for dissertation exclusively in R. When I was trying to develop a web interface to my results \(pre R-Shiny\), I stumbled across Ruby on Rails and RSRuby. As I followed the trail, I realized it was a fork of R2Py and wham, discovered Python. My first experience of PyCon was like walking into Lothlórien. It felt like an epiphany at the time and I’ve never looked back.**          
 **
 
 ![](https://lh4.googleusercontent.com/u-GWg5BExS9Zh0f5IH8iqhN6GhtGouxala-Lhzf1BA4sMdNfiOfRN917D6kWJk-z8q35OcLLRq-tvuZApNqYZhv3Axz5-VcItyBdI9kUP7TfFjJyfYHQSMjcP1FHMgcYXhefFibX)
 
 ## Python and R
 
-### **Why Python \(my favorite\)**
+### **Why Python \(my favorite language\)**
 
 * It’s relatively easy to get started
 
-* You get all the other languages you need too \(e.g. R, Scala, C\)
+* You get all the other languages you need with it \(e.g. R, Scala, C\)
 
 * It’s a Swiss Army Knife: you can do everything from web development to natural language to video games to to robotics and hacking
 
@@ -19,7 +19,7 @@ I got to Python via R. Specifically, I wrote my dissertation exclusively in R. W
 
 ### **What About R**
 
-R was written initially by statisticians for statisticians; in that capacity it is excellent. However, the learning curve can be needlessly steep, it is mostly limited to analytics, the input/output is excruciating, and all the parts don’t quite work together. However, if you are doing an analysis it is THE definitive source of packags, also the dataframe concept is pure genius. RShiny has made it easy to share your results online, RStudio is slick, and the stats libraries are industry standards.
+R \(another fantastic language\) was written initially by statisticians for statisticians; in that capacity it is excellent. Indeed my univeristy stats proffessor was an early adopter. He'd grown tired of developing methods only to have to pay a license so his students could use an outdated version of his method. Unfortuntely, from teaching and training colleagues and students, I've found the learning curve can be needlessly steep, it is mostly limited to analytics, the input/output is excruciating, and  the parts don’t quite work together. However, if you are doing an analysis it is THE definitive source of packages and the **dataframe** concept is pure genius. RShiny has made it easy to share your results online, RStudio is slick, and the stats libraries are industry standard.
 
 **Installing R**
 
@@ -48,10 +48,14 @@ I consider Python to be more versatile for my use case as a full-stack data scie
 conda install rpy2Jupyter notebook
 ```
 
-**In Jupyter \(via browser at **[http://localhost:8888/\](http://localhost:8888/%29**\)\*\*
+**In Jupyter**
+
+Point your browser to ** **[http://localhost:8888/](http://localhost:8888/%29**%29 \)
+
+Then enter this into the first cell and press CMD⌘ + Enter\`
 
 ```
-%load_ext rpy2.ipython 
+%load_ext rpy2.ipython
 %R X=c(1,4,5,7); sd(X); mean(X)
 ```
 
@@ -64,11 +68,9 @@ This should return**
 
 **Pandas DataFrames**
 
-Pandas Dataframes revolutionized the Python workflow and were an R-killer for me. Beyond Dataframes, Pandas is THE most useful framework for analytics in Python. A DataFrame can be conceptualized like a souped up Excel spreadsheet. You have a grid with rows and columns of data, except the cells can contain diverse of types of information, beyond a simple value, e.g. arrays, lists, dictionaries. A DataFrame consists of 3 keys components: the data, the index, and the columns.
+Pandas Dataframes revolutionized the Python workflow and were an R-killer for me. Beyond dataframes, I find Pandas is THE most useful framework for analytics in Python. A DataFrame can be conceptualized like a souped up Excel spreadsheet. You have a grid with rows and columns of data, except the cells can contain diverse of types of information, beyond a simple value, e.g. arrays, lists, dictionaries. A DataFrame consists of 3 keys components: the data, the index, and the columns.
 
-The definiative guide to Pandas is by the author of the package/concept Wes Mckinney
-
-There is a new 2nd edition available as of Sept 25, 2017. I can't recommend this book enough
+The definiative guide to Pandas is written by Wes Mckinney, the author of the package/concept. Here is a new 2nd edition available as of Sept 25, 2017. I can't recommend this book enough.
 
 ![](/assets/pandas.png)[Python for Data Analysis Book](http://wesmckinney.com/pages/book.html)
 
@@ -78,7 +80,7 @@ There is a new 2nd edition available as of Sept 25, 2017. I can't recommend this
 
 **And, an intro to Pandas**
 
-[**https://pandas.pydata.org/pandas-docs/stable/10min.html**](https://pandas.pydata.org/pandas-docs/stable/10min.html)**      
+[**https://pandas.pydata.org/pandas-docs/stable/10min.html**](https://pandas.pydata.org/pandas-docs/stable/10min.html)**          
 **
 
 Combining Python, DataFrames and R
@@ -91,15 +93,21 @@ Now run this code in a Jupyter notebook
 
 **Cell \#1**
 
-| %load\_ext rpy2.ipython importpandasaspd importnumpyasnp data = np.random.randn\(5000,1\) df = pd.DataFrame\(data, columns=\["value"\]\) |
-| :--- |
+```
+%load_ext rpy2.ipython 
+import pandas as pd 
+import numpy as np 
+data = np.random.randn(5000,1) 
+df = pd.DataFrame(data, columns=["value"])
+```
 
+Cell \#2
 
-**Cell \#2**
-
-| %%R -i df -w800-h480-u px library\(ggplot2\) ggplot\(df\) + geom\_density\(aes\(x=value\)\) |
-| :--- |
-
+```
+%%R -i df -w800-h480-u px 
+library(ggplot2) 
+ggplot(df) + geom_density(aes(x=value))
+```
 
 ![](https://lh5.googleusercontent.com/zz9kIap_7A4A7gMmdrxUk71oqFNBKUxZuWDQfY8WY09lpqefpwhRge20uEzFGK10vYc21UqTGApkD7uYjbcADfKqV-mCz7Ugs6c5T_-AqNCM550P9W41xZ1dMqUETWeDdti-n5MN)
 
@@ -107,7 +115,7 @@ Now run this code in a Jupyter notebook
 
 ## **Javascript**
 
-**      
+**          
 **
 
 ## **Scala**

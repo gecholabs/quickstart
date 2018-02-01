@@ -1,14 +1,14 @@
 # CH 1 - **Getting Started**
 
-## **0\) Core setup for your Mac \(Quickstart\)**
+## 1**\) Core setup for your Mac \(Quickstart\)**
 
 **Launch terminal by:**
 
-1. Pressing CMD⌘+spacebar and typing “terminal” in Spotlight Search
+1. Pressing CMD⌘+spacebar and typing “terminal” in Spotlight Search \(hint: it autocompletes as "Terminal.app" ... so you can usually just press enter after typing the first few letters\)
 
-2. Clicking on terminal in your dock
+2. Clicking on terminal in your dock ![](/assets/terminal.png)
 
-3. Opening “Applications/Utilities/terminal.app” in Finder
+3. Opening “Applications/Utilities/Terminal.app” in Finder
 
 **Terminal looks like this.**
 
@@ -18,7 +18,7 @@ Yours may be transparent and the fonts may be small. You can change this in the 
 
 ![](https://lh4.googleusercontent.com/uF70SqBHikD6j9Njn6Wd-FuYHYVKtwHnf4_JjHNrsd1iaha6Z2UQPBTRk1eR6x7y8oHQp9rj3so3gljiuUFj_sIQdV7ANGSEVHrrnC7zWEHIjlpILONW9xBcf0aZiCLq1fvLTBE5)
 
-**      
+**            
 **
 
 ![](https://lh4.googleusercontent.com/Mc9LIslvCkq6shjWOcW9GH82mZ8hK3MEQkNoFN8W5YkkM92CRHtjDTRq_z8XA8pFEjJeyZSkfGWA6kg-leD4isNWfKCYsTvluEmHey6ZWFYzbEuzdjhJocQxn7X8qWSB-jIOLWib)
@@ -43,7 +43,7 @@ jupyter notebook
 
 ---
 
-## **1\) Package Manager \(Homebrew\)**
+## 2**\) Package Manager \(Homebrew\)**
 
 Linux remains my favorite OS. Almost every website you visit is run by a Linux-flavored server. One of the best features of Linux are the package managers. Think of a package as being an “application” or “program that you install, that can range from a full text editor \(atom\) or scripting language \(e.g. Python\) to a helper script that auto-completes lines of code for you.
 
@@ -59,7 +59,7 @@ brew update
 brew upgrade
 ```
 
-## **2\) Python \(Anaconda\)**
+## 3**\) Python \(Anaconda\)**
 
 I’m hesitant to recommend a particular vendor, but installing Python for scientific computing can be a pain. The Anaconda folks have resolved many of headaches \(e.g. SciPy installation\)
 
@@ -81,11 +81,11 @@ Other users will suggest ways to resolve the dependency. Look for the solutions 
 
 [**https://conda.io/docs/test-drive.html**](https://conda.io/docs/test-drive.html)
 
-## **3\) Versioning \(Git\)**
+## 4**\) Versioning \(Git\)**
 
 Versioning is essential to good code management. You’ve probably heard of GitHub, which is where almost all open source software is developed. Lots of business manage their code in private GitHub or GitLab repositories.
 
-From [**https://github.com/explore**](https://github.com/explore)![](https://lh3.googleusercontent.com/Z_LaDlqrQ5Fzun_8_K2GVjdt3CQCjArZrh_kDvnqZ51ERy9phu9DU_8SlyhD03Ipi5jaDbl9Q0GB7uMi8qc9cgUkOf1Nlk_OJCg0wrnzI1ApgFXpas2kRCgXb1RHt_2zbKxp1gqE)**      
+From [**https://github.com/explore**](https://github.com/explore)![](https://lh3.googleusercontent.com/Z_LaDlqrQ5Fzun_8_K2GVjdt3CQCjArZrh_kDvnqZ51ERy9phu9DU_8SlyhD03Ipi5jaDbl9Q0GB7uMi8qc9cgUkOf1Nlk_OJCg0wrnzI1ApgFXpas2kRCgXb1RHt_2zbKxp1gqE)**            
 **
 
 **To install:**
@@ -108,7 +108,7 @@ That will create a tiny system file \(“.git”\) that manages all these snapsh
 
 ![](https://lh3.googleusercontent.com/au_FrcJzI3LEOh5sx_NqnvKYpQPAUutEi5KWd-HKjh0PL8hP-alEgq_a_zyZasEyxu9iikoG1KYDRF_bK4xBG5OdfVA_58JJyqLP9ozoOrKe--WDJE4ygmkezYBGKjMWhxo4JReV)
 
-## **4\) Code Editor \(Atom\)**
+## 5**\) Code Editor \(Atom\)**
 
 ![](https://lh4.googleusercontent.com/4ka3K7vVDLwU-jKT2D6NZn1tSF5g4XTKr-Dx6GKZ2NhaGYzstF7j6rNPxfIYztswc0XAQlNSOYUmRayMeZnmBAdZy7xK5gJjBAi59t5hahRPKSvfPqg9ZcqkiSWQLp9izbeOXjZS)
 
@@ -141,9 +141,9 @@ Tips**
 
 `atom myworkfolder`
 
-## **5\) Lab notebook \(Jupyter\)**
+## 6**\) Lab notebook \(Jupyter\)**
 
-Jupyter notebooks come pre-bundled with Anaconda. They are a revelation in a data scientist's workflow. If you are figuring out a problem and want to know where to start, there is probably a public hosted notebook laying out all the steps.**    
+Jupyter notebooks come pre-bundled with Anaconda. They are a revelation in a data scientist's workflow. If you are figuring out a problem and want to know where to start, there is probably a public hosted notebook laying out all the steps.**          
 **
 
 **To install**
@@ -152,8 +152,8 @@ Jupyter notebooks come pre-bundled with Anaconda. They are a revelation in a dat
 
 This launches a notebook in your web browser. You should read the messages in terminal after running the “jupyter notebook” command. It may suggest you paste a web address into your browser to launch the notebook, e.g. [http://localhost:8888](http://localhost:8888)
 
-**      
-**Jupyter notebooks have revolutionized my workflow. The difference between these and a code editor \(e.g. Atom\), is that you can work on an endless scroll, chasing down data trends like a stream of consciousness and leaving notes for yourself on what you’ve tried. You can also embed graphics and other outputs inline, so you don’t need to have multiple windows open. Lastly, they are easy to share with colleagues. You can even setup a centralized server in your office with JupyterHub.**    
+**            
+**Jupyter notebooks have revolutionized my workflow. The difference between these and a code editor \(e.g. Atom\), is that you can work on an endless scroll, chasing down data trends like a stream of consciousness and leaving notes for yourself on what you’ve tried. You can also embed graphics and other outputs inline, so you don’t need to have multiple windows open. Lastly, they are easy to share with colleagues. You can even setup a centralized server in your office with JupyterHub.**          
 **
 
 You’ll eventually probably tidy up your code into a series of files, perhaps minifying \(minimizing\) or optimizing your code. This is a natural evolution.
@@ -162,20 +162,18 @@ You can find Gazillions of fully annotated Jupyter books in the wild, in places 
 
 [![](https://lh6.googleusercontent.com/T0HRsu7aftRFD_eYi4fgzFHYDzvCsv4eWgz7f6FaET6kFSgkcPKQsW7b6JP0-6HhA28ccekn7pKdOY5y9DsbUA_GwLbXYfcDnE81WIrrlXgsPB66iHdoCXVMdjr9BswP5WOU8uSD)](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks)
 
-**      
+**            
 **
 
 ![](https://lh4.googleusercontent.com/RXqE_zNO8a62g8Yde0on3DHPySRGGMkvRb40m-cALfAUH93MpUn8JkJUGVulWo73GQm0xAEBEqiUCx2Zf8mUSqGeiXq1RGb4RpTiTap7VmEDjs1RzbK8KynaHJda6X9k9S0ct2xQ)
 
-**      
+**            
 **
 
 You can also increasingly find Appendices to scientific papers in this format, for example:
 
-[Predicting Coronal Mass Ejections Using Machine Learning Methods](http://dx.doi.org/10.3847/0004-637X/821/2/127)by Monica Bobra and Stathis Ilonidis \(Astrophysical Journal, 2016\). An [IPython notebook](http://nbviewer.jupyter.org/github/mbobra/machine-learning-with-solar-data/blob/master/cme_svm.ipynb), which reproduces all the results, has been permanently deposited in the [Stanford Digital Repository](https://purl.stanford.edu/wt605kh4712).**    
+[Predicting Coronal Mass Ejections Using Machine Learning Methods](http://dx.doi.org/10.3847/0004-637X/821/2/127) by Monica Bobra and Stathis Ilonidis \(Astrophysical Journal, 2016\). An [IPython notebook](http://nbviewer.jupyter.org/github/mbobra/machine-learning-with-solar-data/blob/master/cme_svm.ipynb), which reproduces all the results, has been permanently deposited in the [Stanford Digital Repository](https://purl.stanford.edu/wt605kh4712).**          
 **![](https://lh5.googleusercontent.com/ugyhftqmnpyYMyE26V2PTruX0VGXr3Tey8l9_ludOMUOSrDf_iFCUOgPzpatIU3DBWAagxFwExauZq_pIQGpcpFlkdOoRaq_3HXaZJw9LcJmrFrZSRDTekkU0axVwxQZc2wNrXaO)
 
-** **You can find entire software container platforms \(e.g. Docker\) that are preconfigured for data science. Set them up and you have an entire environment ready to code \(e.g. Python + Spark + Scipy\). Using them is a bit more involved, so we'll discuss them in a
-
-... [**later section**](https://docs.google.com/document/d/11jn_6sUVg6B13QGyUKbwQ204cNGni5fYoV-ZyxHYnk4/edit#heading=h.gvbjsp3o5391)
+You can find entire software container platforms \(e.g. Docker\) that are preconfigured for data science. Set them up and you have an entire environment ready to code \(e.g. Python + Spark + Scipy\). Using them is a bit more involved, so we'll discuss them in a ... [**later section**](/ch11-containerization.md)
 

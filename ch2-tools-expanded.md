@@ -2,26 +2,23 @@
 
 ## **Package Managers - use one, seriously just do it!**
 
-**I currently use four package managers:    
-**
+I currently use four package managers for data science:    
 
-**Homebrew**
+### 1\) **Homebrew**
 
-Manages the setup of your entire Mac
+Manages the setup of your entire Mac. Totally invaluable and leaves your system setting untouched. 
 
-**Conda**
+### 2\) **Conda**
 
-Manages packages \(especially Python\) in your Anaconda environment \(curated by Anaconda - formerly Continuum IO - a software company\).**    
-**
+Manages packages \(especially Python\) in your Anaconda environment \(curated by Anaconda - formerly Continuum IO\).**    **
 
-**Pip**
+### 3\) **Pip**
 
-Manages Python across your machine \(curated by Python community\)**    
-**
+Manages Python across your machine \(curated by Python community\)**    **
 
-**NPM**
+### 4\) **NPM**
 
 Manages your Node.js javascript packages
 
-**There are more coming down the pipe, but it is worth using these for now.**
+There are more coming down the pipe, and referenced in this guide, but it is worth using these for now.
 

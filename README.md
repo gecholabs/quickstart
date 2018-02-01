@@ -32,7 +32,7 @@ To explore data science, you need the following capabilities \(**warning** opini
 
 **Recommendation**: Atom is extensible, reliable, and intuitive
 
-#### 4. Versioning 
+#### 4. Versioning
 
 ... _to_ “save” snapshots of your work history and collaborate
 
