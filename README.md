@@ -42,21 +42,31 @@ To explore data science, you need the following capabilities \(**warning** opini
 
 ... _to_ explore data and annotate your work
 
-**Recommendation**: Jupyter supports inline graphs, multiple programming languages, and is easy to share and use 
+**Recommendation**: Jupyter supports inline graphs, multiple programming languages, and is easy to share and use
 
 ...everything else is pretty much optional
 
 **TL;DR** this is a choose-your-own-adventure guide to data science; please pick and choose according to your interests and needs. Install the core components first \(Homebrew, Python, Atom, Git, and Jupyter\) they are necessary for all chapters!
 
-**Caveats**
+#### **Caveats**
 
-* Installation guides go out-of-date quickly. I try to keep up but help is appreciated \(e.g. Github issue reports or emails\) 
+* Installation guides go out-of-date quickly. I try to keep up but help is appreciated \(e.g. Github issue reports or emails\)
 
 * This is Mac specific; unfortunately, I no longer have the cycles for Windows or Linux
 
 * Installing things can damage your laptop, I recommend package managers wherever possible to not clobber your settings or bare metal operating system. I'll eventually post to Github the install scripts to build the software in this guide
 
 * I’ve been writing this guide quickly, some sources may not be properly referenced, blanket acknowledgement for sources = “The Interwebs.”
+
+#### **Guide to the Guide**
+
+**Code** is embedded in a grey box from which to copy and paste
+
+```
+echo "hello world"
+```
+
+
 
 
 
