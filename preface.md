@@ -12,7 +12,7 @@ This is a guide to the tools required for getting started with data science: a c
 
 **Everything is permissively licensed, with attribution please.**
 
-![](https://lh6.googleusercontent.com/pxJ3UvklwjnJyC9wSnASZ2gRgThSpPqeZgLEVh172VgSLdDBUyV0f2sGWrWFcRz-COncdNuVl4QcwI9FY5NGoY5oQZMM7Xq3e8EYmPusOyL0yRahtrU0queJCDCV2XoPRG1XrcQP)**By Nico Preston et al.\(**[**CC BY 4.0**](#)**\)**
+![](/assets/image3.png)**By Nico Preston et al.\(**[**CC BY 4.0**](#)**\)**
 
 **Candidate keywords: **DIY, data science, guide, tutorial,
 

@@ -1,9 +1,9 @@
 # CH 3 - **Scripting \(programming\) languages**
 
-I found the Python language via R. Specifically, I did the analyses for dissertation exclusively in R. When I was trying to develop a web interface to my results \(pre R-Shiny\), I stumbled across Ruby on Rails and RSRuby. As I followed the trail, I realized it was a fork of R2Py and wham, discovered Python. My first experience of PyCon was like walking into Lothlórien. It felt like an epiphany at the time and I’ve never looked back.**          
+I found the Python language via R. Specifically, I did the analyses for dissertation exclusively in R. When I was trying to develop a web interface to my results \(pre R-Shiny\), I stumbled across Ruby on Rails and RSRuby. As I followed the trail, I realized it was a fork of R2Py and wham, discovered Python. My first experience of PyCon was like walking into Lothlórien. It felt like an epiphany at the time and I’ve never looked back.**            
 **
 
-![](https://lh4.googleusercontent.com/u-GWg5BExS9Zh0f5IH8iqhN6GhtGouxala-Lhzf1BA4sMdNfiOfRN917D6kWJk-z8q35OcLLRq-tvuZApNqYZhv3Axz5-VcItyBdI9kUP7TfFjJyfYHQSMjcP1FHMgcYXhefFibX)
+![](/assets/image1.png)
 
 ## Python and R
 
@@ -64,7 +64,7 @@ This should return**
 
 `array([ 4.25])`
 
-## ![](https://lh3.googleusercontent.com/Ug-msJjCNnVPRWSbtrOdh6Tew1_Z0pCyFAFxWtWujIdnTwt_rCd_y8ItB8gq147YHp5Gf1_A029Z0YsLtwg-pemjypCs3D70RgmKcS9ltUoCR3pH8deU9WQrYBIyLDbFChKPTeg0)
+## ![](/assets/image9.png)
 
 **Pandas DataFrames**
 
@@ -80,7 +80,7 @@ The definiative guide to Pandas is written by Wes Mckinney, the author of the pa
 
 **And, an intro to Pandas**
 
-[**https://pandas.pydata.org/pandas-docs/stable/10min.html**](https://pandas.pydata.org/pandas-docs/stable/10min.html)**          
+[**https://pandas.pydata.org/pandas-docs/stable/10min.html**](https://pandas.pydata.org/pandas-docs/stable/10min.html)**            
 **
 
 Combining Python, DataFrames and R
@@ -109,13 +109,13 @@ library(ggplot2)
 ggplot(df) + geom_density(aes(x=value))
 ```
 
-![](https://lh5.googleusercontent.com/zz9kIap_7A4A7gMmdrxUk71oqFNBKUxZuWDQfY8WY09lpqefpwhRge20uEzFGK10vYc21UqTGApkD7uYjbcADfKqV-mCz7Ugs6c5T_-AqNCM550P9W41xZ1dMqUETWeDdti-n5MN)
+![](/assets/image11.png)
 
 > Source** **[**https://ragrawal.wordpress.com/2016/08/03/using-r-ggplot-within-ipython-notebook/**](https://ragrawal.wordpress.com/2016/08/03/using-r-ggplot-within-ipython-notebook/)
 
 ## **Javascript**
 
-**          
+**            
 **
 
 ## **Scala**

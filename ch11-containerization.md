@@ -1,7 +1,3 @@
-
-
-
-
 # Containers and Virtual Machines
 
 I’m really into containers and VMs … Why? What the? How?
@@ -16,8 +12,7 @@ Containers are like the ingredients for a VM but can be run on demand. There is 
 
 Docker is an excellent example
 
-[https://www.docker.com/what-docker](https://www.docker.com/what-docker)  
-
+[https://www.docker.com/what-docker](https://www.docker.com/what-docker)
 
 This resource from Jupyter has fully configured environments for data science. Fully opinionated, just like this UG.
 
@@ -25,8 +20,5 @@ This resource from Jupyter has fully configured environments for data science. F
 
 The “data science” notebook has just about everything you need: Python, R, Julia.
 
-![](https://lh4.googleusercontent.com/mqwB5af1pXwbIdJgaPKWDczthaowIYe12vQ62zd82ID5-kmu5sDRrCKKfs8DNwNxtvIebDx2qf5OKnJAxV_W6e6mvA1Jcj-eoDNHVqwxtc9Ef5ty2PlKxhJ1LJRikxHOhiI4ntgX)
-
-  
-
+![](/assets/image8.png)
 

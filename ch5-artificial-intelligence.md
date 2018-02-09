@@ -21,7 +21,7 @@ R is a strong Statistics and ML platform. It gets a huge support from Academia, 
 
 3. Open RStudio
 
-![](https://lh3.googleusercontent.com/COl0dT4M1RHNbnorZolzpHFswSJU8tiMArs3dq7kAePMTpVFufd_NawD0sGVanbVHDiVo-MzoHkTSrcxPx99qn1ieQM6GbU00TS0TTgm46fNVn_AG7NG79hxUmG3-L0iNDutqAxh)
+![](/assets/image16.png)
 
 Install some useful packages inside command line in RStudio:
 
@@ -47,15 +47,9 @@ conda install theano pygpu
 
 ```
 # install TensorFlowconda create -n tensorflowsource activate tensorflow #For python 2.7pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.2.1-py2-none-any.whl#For python 3.4, 3.5, 3.6pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.2.1-py3-none-any.whl pip install --ignore-installed --upgrade \https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.2.1-py2-none-any.whl
-
 ```
 
-|  |
-| :--- |
 
-
-**  
-**
 
 **Pre-Built Machine Learning Models and Visualization Tools**
 
@@ -63,6 +57,6 @@ conda install theano pygpu
 
 **.**
 
-**  
+**    
 **
 
