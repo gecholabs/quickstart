@@ -18,7 +18,7 @@ Yours may be transparent and the fonts may be small. You can change this in the 
 
 ![](/assets/image14.png)
 
-**                  
+**                    
 **
 
 ![](/assets/image4.png)
@@ -55,7 +55,7 @@ jupyter notebook
 
 Linux remains my favorite OS. Almost every website you visit is run by a Linux-flavored server. One of the best features of Linux are the package managers. Think of a package as being an “application” or “program that you install, that can range from a full text editor \(atom\) or scripting language \(e.g. Python\) to a helper script that auto-completes code for you.
 
-The benefit of package managers is that if you can keep your code separate from your operating system \(OS\) and other software. Otherwise, as you install stuff you could clobber your machine settings, slow things down, or introduce error to other projects due to dependency issues. A package manager keeps software installations separate. For example, by default, software installed by Homebrew is put in the folder /usr/local/cellar. 
+The benefit of package managers is that if you can keep your code separate from your operating system \(OS\) and other software. Otherwise, as you install stuff you could clobber your machine settings, slow things down, or introduce error to other projects due to dependency issues. A package manager keeps software installations separate. For example, by default, software installed by Homebrew is put in the folder /usr/local/cellar.
 
 You can remove Homebrew and all the dependencies anytime you want without affecting your machine. You can also rebuild your software environment on other machines and get your team synchronized.
 
@@ -80,7 +80,7 @@ I’m hesitant to recommend a particular vendor, but installing Python for scien
 > From [https://www.continuum.io/downloads](https://www.continuum.io/downloads)
 
 ```
-#install anaconda python with homebrew
+#install anaconda python with Homebrew
 brew cask install Anaconda
 ```
 
@@ -100,7 +100,7 @@ Other users will suggest ways to resolve the dependency. Look for the solutions 
 
 ## 3**\) Versioning \(Git\)**
 
-Versioning is essential to good code management. You’ve probably heard of GitHub, which is where almost all open source software is developed. Lots of business manage their code in private GitHub or GitLab repositories.
+Versioning is essential to good code management. You’ve probably heard of GitHub, which is where almost all open source software is developed. However, the public code you find is this is just the tip of the iceberg, lots of business manage their code in private GitHub or GitLab repositories. Also you should check the license before you use code, just because it is on Github does not mean it is open source.
 
 From [**https://github.com/explore**](https://github.com/explore)
 
@@ -164,7 +164,7 @@ Tips**
 
 ## 5**\) Lab notebook \(Jupyter\)**
 
-Jupyter notebooks come pre-bundled with Anaconda. They are a revelation in a data scientist's workflow. If you are figuring out a problem and want to know where to start, there is probably a public hosted notebook laying out all the steps.**                
+Jupyter notebooks come pre-bundled with Anaconda. They are a revelation in a data scientist's workflow. If you are figuring out a problem and want to know where to start, there is probably a public hosted notebook laying out all the steps.**                  
 **
 
 **To install**
@@ -173,8 +173,8 @@ Jupyter notebooks come pre-bundled with Anaconda. They are a revelation in a dat
 
 This launches a notebook in your web browser. You should read the messages in terminal after running the “jupyter notebook” command. It may suggest you paste a web address into your browser to launch the notebook, e.g. [http://localhost:8888](http://localhost:8888)
 
-**                  
-**Jupyter notebooks have revolutionized my workflow. The difference between these and a code editor \(e.g. Atom\), is that you can work on an endless scroll, chasing down data trends like a stream of consciousness and leaving notes for yourself on what you’ve tried. You can also embed graphics and other outputs inline, so you don’t need to have multiple windows open. Lastly, they are easy to share with colleagues. You can even setup a centralized server in your office with JupyterHub.**                
+**                    
+**Jupyter notebooks have revolutionized my workflow. The difference between these and a code editor \(e.g. Atom\), is that you can work on an endless scroll, chasing down data trends like a stream of consciousness and leaving notes for yourself on what you’ve tried. You can also embed graphics and other outputs inline, so you don’t need to have multiple windows open. Lastly, they are easy to share with colleagues. You can even setup a centralized server in your office with JupyterHub.**                  
 **
 
 You’ll eventually probably tidy up your code into a series of files, perhaps minifying \(minimizing\) or optimizing your code. This is a natural evolution.
