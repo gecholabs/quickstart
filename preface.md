@@ -14,5 +14,5 @@ This is a guide to the tools required for getting started with data science: a c
 
 ![](/assets/image3.png)**By Nico Preston et al.\(**[**CC BY 4.0**](#)**\)**
 
-**Candidate keywords: **DIY, data science, guide, tutorial,
+K**eywords: **data science, tutorial, python, r, gis, javascript, ai, nlp
 
