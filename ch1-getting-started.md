@@ -18,7 +18,7 @@ Yours may be transparent and the fonts may be small. You can change this in the 
 
 ![](/assets/image14.png)
 
-**                    
+**                      
 **
 
 ![](/assets/image4.png)
@@ -100,7 +100,7 @@ Other users will suggest ways to resolve the dependency. Look for the solutions 
 
 ## 3**\) Versioning \(Git\)**
 
-Versioning is essential to good code management. You’ve probably heard of GitHub, which is where almost all open source software is developed. However, the public code you find is this is just the tip of the iceberg, lots of business manage their code in private GitHub or GitLab repositories. Also you should check the license before you use code, just because it is on Github does not mean it is open source.
+Versioning is essential to good code management. You’ve probably heard of GitHub, which is where almost all open source software is developed. However, the public code you find is this is just the tip of the iceberg, lots of business manage their code in private GitHub or GitLab repositories. Also you should check the license before you use code \(look for a LICENSE file\), just because it is on Github does not mean it is open source.
 
 From [**https://github.com/explore**](https://github.com/explore)
 
@@ -113,9 +113,9 @@ From [**https://github.com/explore**](https://github.com/explore)
 brew install git
 ```
 
-The underlying technology is Git--a distributed version control system. The basic concept is like playing a video game, when you are about the face the boss at the end of a level you might save your game, as “savegame1”, then if you fail you may go back to that, at the next boss you might “savegame2”, etc… a confusing chain of semi-meaningful names. Now you may need to revert to one of these previous versions as you advance, but the nomenclature quickly gets out of hand.
+Git is a distributed version control system. The basic concept is like playing a video game, when you are about the face the boss at the end of a level you might save your game, as “savegame1”, then if you fail you may go back to that, at the next boss you might “savegame2”, etc… This creates a confusing chain of semi-meaningful names. Now you may need to revert to one of these previous versions as you advance, but the nomenclature \(arbitrary numbering\) quickly gets out of hand.
 
-With Git you can make a “commit” \(snapshot\) as you work and type a “commit message” to remind yourself, and others, of what you did. You can also create a “branch” of your code, that won’t affect the main code, but may be where you are develop a new feature. Most importantly, you can collaborate with others easily. Just like Google Docs changed the way we quickly edit docs, you can all be working on the same code base; however, you wouldn’t want other peoples edits to suddenly jump into your code and break things. So there are cultural practices to how the code is managed and merged. Essentially, you can work in separate branches, named for the functionality they are adding \(e.g. “fixing analysis bug”\), when you are ready you propose a “pull request” to the main repo and can have it peer reviewed and merged by your collaborators. We’ll discuss social coding practices and conventions later.
+With Git you can make a “commit” \(snapshot\) as you work and type a “commit message” to remind yourself, and others, of what you did. You can also create a “branch” of your code, that won’t affect the main code, but may be where you are develop a new feature. Importantly, you can easily collaborate with others. Just like Google Docs revolutionized the way we edit docs, you can all be working on the same code base; however, you wouldn’t want other peoples edits to suddenly jump into your code and break things. So, there are cultural practices to how the code is managed and merged. Essentially, you can work in separate branches, named for the functionality they are adding \(e.g. “fixing analysis bug”\), when you are ready you propose a “pull request” to the main repo and can have it peer reviewed and merged by your collaborators. We’ll discuss social coding practices and conventions later.
 
 **To create a git repository in a folder**
 
@@ -123,7 +123,7 @@ With Git you can make a “commit” \(snapshot\) as you work and type a “comm
 git init
 ```
 
-That will create a tiny system file \(“.git”\) that manages all these snapshots of your code. To get started with Git, try an intro guide like this
+That will create a tiny system file \(“.git”\) that manages all these snapshots of your code. Here is an intro guide to help you get started with Git:
 
 [**http://rogerdudler.github.io/git-guide/**](http://rogerdudler.github.io/git-guide/)
 
@@ -133,17 +133,20 @@ That will create a tiny system file \(“.git”\) that manages all these snapsh
 
 ![](/assets/image6.png)
 
-Code editors are like tricked out word processors \(e.g. MS Word or Pages\) for code.
+Code editors are like tricked out word processors \(e.g. MS Word or Pages\).
 
 **To install**
 
-`brew cask install atom`
+```
+# Install Atom with homebrew
+brew cask install atom
+```
 
 **Advantages**
 
-* Built in editors are too minimalist and obscure \(e.g. Nano, Pico\); you need a tutorial to figure out how to insert edits or exit the editor.
+* Built in editors are too minimalist and obscure \(e.g. Nano, Pico\); you need a tutorial just to figure out how to insert edits or exit the editor.
 
-* Power editors have a steep learning curve \(e.g. Emacs, Vim\) have a steep learning curve, are a gazillion years old, and require constant configuration maintenance \(but they’re awesome, retro, and nerdy\).
+* Power code editors \(e.g. Emacs, Vim\) have a steep learning curve, are a gazillion years old, and require constant configuration maintenance \(but they’re awesome, retro, and nerdy so check them out later\).
 
 * Atom mostly works out of the box
 
@@ -158,13 +161,17 @@ Tips**
 
 * You can add packages to enhance Atom via Packages&gt;Settings View&gt;Manage Packages
 
+* As of 2017, you can manage your github interactions directly through atom
+
 * To quickly launch a whole folder navigate to that folder in in terminal then launch atom
 
-`atom myworkfolder`
+```
+atom myworkfolder
+```
 
 ## 5**\) Lab notebook \(Jupyter\)**
 
-Jupyter notebooks come pre-bundled with Anaconda. They are a revelation in a data scientist's workflow. If you are figuring out a problem and want to know where to start, there is probably a public hosted notebook laying out all the steps.**                  
+Jupyter notebooks come pre-bundled with Anaconda. They are a revelation in a data scientist's workflow. If you are figuring out a problem and want to know where to start, there is probably a public hosted notebook laying out all the steps.**                    
 **
 
 **To install**
@@ -173,8 +180,8 @@ Jupyter notebooks come pre-bundled with Anaconda. They are a revelation in a dat
 
 This launches a notebook in your web browser. You should read the messages in terminal after running the “jupyter notebook” command. It may suggest you paste a web address into your browser to launch the notebook, e.g. [http://localhost:8888](http://localhost:8888)
 
-**                    
-**Jupyter notebooks have revolutionized my workflow. The difference between these and a code editor \(e.g. Atom\), is that you can work on an endless scroll, chasing down data trends like a stream of consciousness and leaving notes for yourself on what you’ve tried. You can also embed graphics and other outputs inline, so you don’t need to have multiple windows open. Lastly, they are easy to share with colleagues. You can even setup a centralized server in your office with JupyterHub.**                  
+**                      
+**Jupyter notebooks have revolutionized my workflow. The difference between these and a code editor \(e.g. Atom\), is that you can work on an endless scroll, chasing down data trends like a stream of consciousness and leaving notes for yourself on what you’ve tried. You can also embed graphics and other outputs inline, so you don’t need to have multiple windows open. Lastly, they are easy to share with colleagues. You can even setup a centralized server in your office with JupyterHub.**                    
 **
 
 You’ll eventually probably tidy up your code into a series of files, perhaps minifying \(minimizing\) or optimizing your code. This is a natural evolution.
