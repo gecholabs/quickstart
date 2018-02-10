@@ -18,7 +18,7 @@ Yours may be transparent and the fonts may be small. You can change this in the 
 
 ![](/assets/image14.png)
 
-**                        
+**                          
 **
 
 ![](/assets/image4.png)
@@ -163,7 +163,7 @@ Tips**
 
 * As of 2017, you can manage your github interactions directly through Atom. There is now a popout view on the right side that shows changes, commits, and staged file. It can be a great way to diff and merge branches.
 
-* Launch a folder \(e.g. myworkfolder\) in atom directly from the terminal 
+* Launch a folder \(e.g. myworkfolder\) in atom directly from the terminal
 
 ```
 atom myworkfolder
@@ -171,17 +171,19 @@ atom myworkfolder
 
 ## 5**\) Lab notebook \(Jupyter\)**
 
-Jupyter notebooks are pre-bundled with Anaconda. They are a revelation in a data scientist's workflow. If you are figuring out a problem and want to know where to start, there is probably a public hosted notebook laying out all the steps.**                      
+Jupyter notebooks are pre-bundled with Anaconda. They are a revelation in a data scientist's workflow. If you are figuring out a problem and want to know where to start, there is probably a public hosted notebook laying out all the steps.**                        
 **
 
 **To install**
 
-`jupyter notebook`
+```
+jupyter notebook
+```
 
 This launches a notebook in your web browser. You should read the messages in terminal after running the “jupyter notebook” command. It may suggest you paste a web address into your browser to launch the notebook, e.g. [http://localhost:8888](http://localhost:8888)
 
-**                        
-**Jupyter notebooks have revolutionized my workflow. The difference between these and a code editor \(e.g. Atom\), is that you can work on an endless scroll, chasing down data trends like a stream of consciousness and leaving notes for yourself on what you’ve tried. You can also embed graphics and other outputs inline, so you don’t need to have multiple windows open. Lastly, they are easy to share with colleagues. You can even setup a centralized server in your office with JupyterHub.**                      
+**                          
+**Jupyter notebooks have revolutionized my workflow. The difference between these and a code editor \(e.g. Atom\), is that you can work on an endless scroll, chasing down data trends like a stream of consciousness and leaving notes for yourself on what you’ve tried. You can also embed graphics and other outputs inline, so you don’t need to have multiple windows open. Lastly, they are easy to share with colleagues. You can even setup a centralized server in your office with JupyterHub.**                        
 **
 
 You’ll eventually probably tidy up your code into a series of files, perhaps minifying \(minimizing\) or optimizing your code. This is a natural evolution.
