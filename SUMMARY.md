@@ -5,7 +5,7 @@
 * [CH0 - Getting Started](ch0-getting-started.md)
 * [CH1 - Package Managers](ch2-package-managers.md)
 * [CH3 - Version Control](ch3-version-control.md)
-* [CH3 - Scripting Languages](ch3-scripting-languages.md)
+* [CH2 - Scripting Languages](ch3-scripting-languages.md)
 * [CH4 - Data](ch4-get-me-some-data.md)
 * [CH5 - Artificial intelligence](ch5-artificial-intelligence.md)
 * [CH6 - Natural Language](ch6-natural-language.md)

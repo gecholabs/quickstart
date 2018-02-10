@@ -1,6 +1,6 @@
-# CH 3 - **Scripting \(programming\) languages**
+# CH 2 - **Scripting \(programming\) languages**
 
-I found the Python language via R. Specifically, I did the analyses for dissertation exclusively in R. When I was trying to develop a web interface to my results \(pre R-Shiny\), I stumbled across Ruby on Rails and RSRuby. As I followed the trail, I realized it was a fork of R2Py and wham, discovered Python. My first experience of PyCon was like walking into Lothlórien. It felt like an epiphany at the time and I’ve never looked back.**            
+I found the Python language via R. Specifically, I did the analyses for dissertation exclusively in R. When I was trying to develop a web interface to my results \(pre R-Shiny\), I stumbled across Ruby on Rails and RSRuby. As I followed the trail, I realized it was a fork of R2Py and wham, discovered Python. My first experience of PyCon was like walking into Lothlórien. It felt like an epiphany at the time and I’ve never looked back.**              
 **
 
 ![](/assets/image1.png)
@@ -80,7 +80,7 @@ The definiative guide to Pandas is written by Wes Mckinney, the author of the pa
 
 **And, an intro to Pandas**
 
-[**https://pandas.pydata.org/pandas-docs/stable/10min.html**](https://pandas.pydata.org/pandas-docs/stable/10min.html)**            
+[**https://pandas.pydata.org/pandas-docs/stable/10min.html**](https://pandas.pydata.org/pandas-docs/stable/10min.html)**              
 **
 
 Combining Python, DataFrames and R
@@ -115,7 +115,7 @@ ggplot(df) + geom_density(aes(x=value))
 
 ## **Javascript**
 
-**            
+**              
 **
 
 ## **Scala**
