@@ -18,7 +18,7 @@ Yours may be transparent and the fonts may be small. You can change this in the 
 
 ![](/assets/image14.png)
 
-**                          
+**                            
 **
 
 ![](/assets/image4.png)
@@ -115,7 +115,7 @@ brew install git
 
 Git is a distributed version control system. The basic concept is like playing a video game, when you are about the face the boss at the end of a level you might save your game, as “savegame1”, then if you fail you may go back to that, at the next boss you might “savegame2”, etc… This creates a confusing chain of semi-meaningful names. Now you may need to revert to one of these previous versions as you advance, but the nomenclature \(arbitrary numbering\) quickly gets out of hand.
 
-With Git you can make a “commit” \(snapshot\) as you work and type a “commit message” to remind yourself, and others, of what you did. You can also create a “branch” of your code, that won’t affect the main code, but may be where you are develop a new feature. Importantly, you can easily collaborate with others. Just like Google Docs revolutionized the way we edit docs, you can all be working on the same code base; however, you wouldn’t want other peoples edits to suddenly jump into your code and break things. So, there are cultural practices to how the code is managed and merged. Essentially, you can work in separate branches, named for the functionality they are adding \(e.g. “fixing analysis bug”\), when you are ready you propose a “pull request” to the main repo and can have it peer reviewed and merged by your collaborators. We’ll discuss social coding practices and conventions later.
+With Git you can make a “commit” \(~save\) as you work and type a “commit message” to remind yourself, and others, of what you did. You can also create a “branch” of your code, that won’t affect the main code, but is where you are develop a new feature. Importantly, you can easily collaborate with others. Just like Google Docs revolutionized the way we edit docs, you can all be working on the same code base; however, you wouldn’t want edits by others edits to suddenly jump into your code and break things. So, there are cultural practices to how the code is managed and merged, as well as gate keepers to the Master branch. Essentially, you can work in separate branches, named for the functionality they are adding \(e.g. “fixing analysis bug”\), when you are ready you propose a “pull request” to a Master branch in the main repo to be peer reviewed and merged by your collaborators. We’ll discuss social coding practices and conventions later.
 
 **To create a git repository in a folder**
 
@@ -171,7 +171,7 @@ atom myworkfolder
 
 ## 5**\) Lab notebook \(Jupyter\)**
 
-Jupyter notebooks are pre-bundled with Anaconda. They are a revelation in a data scientist's workflow. If you are figuring out a problem and want to know where to start, there is probably a public hosted notebook laying out all the steps.**                        
+Jupyter notebooks are pre-bundled with Anaconda. They are a revelation in a data scientist's workflow. If you are figuring out a problem and want to know where to start, there is probably a public hosted notebook laying out all the steps.**                          
 **
 
 **To install**
@@ -182,8 +182,8 @@ jupyter notebook
 
 This launches a notebook in your web browser. You should read the messages in terminal after running the “jupyter notebook” command. It may suggest you paste a web address into your browser to launch the notebook, e.g. [http://localhost:8888](http://localhost:8888)
 
-**                          
-**Jupyter notebooks have revolutionized my workflow. The difference between these and a code editor \(e.g. Atom\), is that you can work on an endless scroll, chasing down data trends like a stream of consciousness and leaving notes for yourself on what you’ve tried. You can also embed graphics and other outputs inline, so you don’t need to have multiple windows open. Lastly, they are easy to share with colleagues. You can even setup a centralized server in your office with JupyterHub.**                        
+**                            
+**Jupyter notebooks have revolutionized my workflow. The difference between these and a code editor \(e.g. Atom\), is that you can work on an endless scroll, chasing down data trends like a stream of consciousness and leaving notes for yourself on what you’ve tried. You can also embed graphics and other outputs inline, so you don’t need to have multiple windows open. Lastly, they are easy to share with colleagues. You can even setup a centralized server in your office with JupyterHub.**                          
 **
 
 You’ll eventually probably tidy up your code into a series of files, perhaps minifying \(minimizing\) or optimizing your code. This is a natural evolution.
