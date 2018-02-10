@@ -18,7 +18,7 @@ Yours may be transparent and the fonts may be small. You can change this in the 
 
 ![](/assets/image14.png)
 
-**                      
+**                        
 **
 
 ![](/assets/image4.png)
@@ -30,22 +30,22 @@ Yours may be transparent and the fonts may be small. You can change this in the 
 If you don’t feel like reading details about the tools, just run these scripts in the terminal and you’ll be good to go with the core setup:
 
 ```bash
-# install and update homebrew (package manager)
+# 1 - install and update homebrew (package manager)
 ruby -e"$(curl -fsSL 
 https://raw.githubusercontent.com/Homebrew/install/master/install\
 )" 
 brew update && brew upgrade
 
-# Install Anaconda Python (scripting language)
+# 2 - Install Anaconda Python (scripting language)
 brew cask install Anaconda 
 
-# Install Git (version control)
+# 3 - Install Git (version control)
 brew install git 
 
-# Install Atom (code editor)
+# 4 - Install Atom (code editor)
 brew cask install atom
 
-# Test open a Jupyter notebook and preview at http://localhost:8888/
+# 5 - Open a Jupyter (lab notebook) and preview at http://localhost:8888/
 jupyter notebook
 ```
 
@@ -73,7 +73,7 @@ brew upgrade
 ls /usr/local/cellar
 ```
 
-## 2**\) Programming language \(Python - Anaconda distro\)**
+## 2**\) Scripting language \(Python - Anaconda distro\)**
 
 I’m hesitant to recommend a particular vendor, but installing Python for scientific computing can be a challange. The Anaconda folks have resolved many of headaches \(e.g. SciPy installation\)
 
@@ -98,7 +98,7 @@ Other users will suggest ways to resolve the dependency. Look for the solutions 
 
 [**https://conda.io/docs/test-drive.html**](https://conda.io/docs/test-drive.html)
 
-## 3**\) Versioning \(Git\)**
+## 3**\) Version Control \(Git\)**
 
 Versioning is essential to good code management. You’ve probably heard of GitHub, which is where almost all open source software is developed. However, the public code you find is this is just the tip of the iceberg, lots of business manage their code in private GitHub or GitLab repositories. Also you should check the license before you use code \(look for a LICENSE file\), just because it is on Github does not mean it is open source.
 
@@ -144,15 +144,15 @@ brew cask install atom
 
 **Advantages**
 
-* Built in editors are too minimalist and obscure \(e.g. Nano, Pico\); you need a tutorial just to figure out how to insert edits or exit the editor.
+* Built in editors are minimalist and obscure \(e.g. Nano, Pico\); you need a tutorial just to figure out how to insert edits or exit the editor.
 
-* Power code editors \(e.g. Emacs, Vim\) have a steep learning curve, are a gazillion years old, and require constant configuration maintenance \(but they’re awesome, retro, and nerdy so check them out later\).
+* Power editors \(e.g. Emacs, Vim\) have a steep learning curve, are a gazillion years old, and require constant configuration maintenance. That said, they’re awesome, retro, and nerdy so check them out sometime.
 
 * Atom mostly works out of the box
 
-* It’s future friendly in being browser based, e.g. picture the Google Chromebook and browser only devices
+* It’s future friendly and browser based, e.g. usable on Google Chromebook and browser only devices
 
-* It’s probably the future as rapid social coding moves entirely to the web/cloud
+* It’s future relevant as social coding moves entirely to the web/cloud
 
 **  
 Tips**
@@ -161,9 +161,9 @@ Tips**
 
 * You can add packages to enhance Atom via Packages&gt;Settings View&gt;Manage Packages
 
-* As of 2017, you can manage your github interactions directly through atom
+* As of 2017, you can manage your github interactions directly through Atom. There is now a popout view on the right side that shows changes, commits, and staged file. It can be a great way to diff and merge branches.
 
-* To quickly launch a whole folder navigate to that folder in in terminal then launch atom
+* Launch a folder \(e.g. myworkfolder\) in atom directly from the terminal 
 
 ```
 atom myworkfolder
@@ -171,7 +171,7 @@ atom myworkfolder
 
 ## 5**\) Lab notebook \(Jupyter\)**
 
-Jupyter notebooks come pre-bundled with Anaconda. They are a revelation in a data scientist's workflow. If you are figuring out a problem and want to know where to start, there is probably a public hosted notebook laying out all the steps.**                    
+Jupyter notebooks are pre-bundled with Anaconda. They are a revelation in a data scientist's workflow. If you are figuring out a problem and want to know where to start, there is probably a public hosted notebook laying out all the steps.**                      
 **
 
 **To install**
@@ -180,8 +180,8 @@ Jupyter notebooks come pre-bundled with Anaconda. They are a revelation in a dat
 
 This launches a notebook in your web browser. You should read the messages in terminal after running the “jupyter notebook” command. It may suggest you paste a web address into your browser to launch the notebook, e.g. [http://localhost:8888](http://localhost:8888)
 
-**                      
-**Jupyter notebooks have revolutionized my workflow. The difference between these and a code editor \(e.g. Atom\), is that you can work on an endless scroll, chasing down data trends like a stream of consciousness and leaving notes for yourself on what you’ve tried. You can also embed graphics and other outputs inline, so you don’t need to have multiple windows open. Lastly, they are easy to share with colleagues. You can even setup a centralized server in your office with JupyterHub.**                    
+**                        
+**Jupyter notebooks have revolutionized my workflow. The difference between these and a code editor \(e.g. Atom\), is that you can work on an endless scroll, chasing down data trends like a stream of consciousness and leaving notes for yourself on what you’ve tried. You can also embed graphics and other outputs inline, so you don’t need to have multiple windows open. Lastly, they are easy to share with colleagues. You can even setup a centralized server in your office with JupyterHub.**                      
 **
 
 You’ll eventually probably tidy up your code into a series of files, perhaps minifying \(minimizing\) or optimizing your code. This is a natural evolution.
