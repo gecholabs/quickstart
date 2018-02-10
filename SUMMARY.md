@@ -2,8 +2,9 @@
 
 * [Preface](preface.md)
 * [Introduction](README.md)
-* [CH1 - Getting Started](ch1-getting-started.md)
-* [CH2 - Tools Expanded](ch2-tools-expanded.md)
+* [CH0 - Getting Started](ch0-getting-started.md)
+* [CH1 - Package Managers](ch2-package-managers.md)
+* [CH3 - Version Control](ch3-version-control.md)
 * [CH3 - Scripting Languages](ch3-scripting-languages.md)
 * [CH4 - Data](ch4-get-me-some-data.md)
 * [CH5 - Artificial intelligence](ch5-artificial-intelligence.md)
@@ -16,5 +17,6 @@
 * [CH12 - Data Engineering](ch12-data-security.md)
 * [REFERENCES](refs.md)
 * [AUTHORS](authors.md)
-* [CHANGES](changes.md)
+* CH3 - Version Control
+* CH4 - Version Control
 

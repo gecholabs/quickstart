@@ -1,4 +1,22 @@
-# CH 1 - **Getting Started**
+# CH 0 - **Getting Started**
+
+---
+
+**Chapter Contents:**
+
+0\) Core setup for your Mac \(Quickstart\)
+
+1\) Package Manager \(Homebrew\)
+
+2\) Scripting language \(Python - Anaconda distro\)
+
+3\) Version Control \(Git\)
+
+4\) Code Editor \(Atom\)
+
+5\) Lab notebook \(Jupyter\)
+
+---
 
 ## 0**\) Core setup for your Mac \(Quickstart\)**
 
@@ -18,7 +36,7 @@ Yours may be transparent and the fonts may be small. You can change this in the 
 
 ![](/assets/image14.png)
 
-**                                  
+**                                      
 **
 
 ![](/assets/image4.png)
@@ -181,7 +199,7 @@ jupyter notebook
 
 This launches a notebook in your web browser. You should read the messages in terminal after running the “jupyter notebook” command. It may suggest you paste a web address into your browser to launch the notebook, e.g. [http://localhost:8888](http://localhost:8888)
 
-**                                  
+**                                      
 **Jupyter notebooks have revolutionized my workflow. The difference between these and a code editor \(e.g. Atom\), is that you can work on an endless scroll, chasing down data trends like a stream of consciousness and leaving notes for yourself on what you’ve tried. You can also embed graphics and other outputs inline, so you don’t need to have multiple windows open. Lastly, they are easy to share with colleagues. You can even setup a centralized server in your office with JupyterHub.
 
 You’ll eventually probably tidy up your code into a series of files, perhaps minifying \(minimizing\) or optimizing your code. This is a natural evolution.
