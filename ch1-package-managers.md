@@ -29,15 +29,73 @@ I currently use four different package managers for data science:
 
 ### 0\) **Homebrew**
 
-Manages the setup of your entire Mac. Homebrew is invaluable and leaves your system settings untouched.
+Manages the setup of your entire Mac. Homebrew is invaluable and leaves your system settings untouched. Homebrew is called the "missing package manager for Mac OSx." It is a beer themed package management system. You tap a repository to access files.
+
+To check on the health of your packaged, e.g. check for updates and verify configuration use
+
+```
+brew doctor
+```
+
+You can usually ignore any warnings, they are just a suggestion. If something needs fixing Brew Doctor will give you the command you need to run. Most of these are safe to run. It is very satisfying to have a clean bill of health from the Brew Doctors.
+
+To maintain your home brew, these commands are usually run together
+
+```
+brew update && brew upgrade
+```
+
+To install software use the syntax brew install XYZ, e.g.
+
+```
+brew install python
+```
+
+To uninstall software use brew uninstall XYZ, e.g.
+
+```
+brew uninstall python
+```
+
+Sometimes you need to search for the software to get the spelling correct, try this
+
+```
+brew SEARCH?
+```
+
+Alternatively, you can just google the name of the software and homebrew and you'll usually find an example in a forum post. Be careful cutting and pasting code from forum posts, make sure you understand what it does. Commands like brew install and the name of the library you are looking for is generally a safe operation; you can always brew uninstall if you don't like it.
+
+Some full software suites, or binaries are managed with brew cask, for example:
+
+```
+brew CASK INSTALL?
+```
+
+Other packages outside the core are managed in seperate repositories you may need to tap. For example, some favorite scientific and geospatial repositories are here:
+
+```
+BREW TAP?
+```
 
 ### 1\) **Conda**
 
-Manages packages \(especially Python\) in your Anaconda environment \(curated by Anaconda - formerly Continuum IO\).
+Manages packages \(especially Python\) in your Anaconda environment \(curated by Anaconda - formerly Continuum IO\). This system is used specifically to manage python libraries with the Anaconda installation
+
+To install
+
+
+
+To uninstall
+
+
+
+To find
+
+
 
 ### 2\) **Pip**
 
-Manages Python across your machine \(curated by Python community\).
+Manages Python across your machine \(curated by Python community\). This environment is called the Cheese factory--a Monty Python reference, like many things Pythonic. Pip replaced easy\_install. You will often see reference to both, use Pip for more consistent results.
 
 ### 3\) **NPM**
 

@@ -1,6 +1,6 @@
 # Preface
 
-This is a guide to the tools required for getting started with data science: a compilation of installation notes and tutorials to get underway.
+This is a guide to the tools required for getting started for scientific computing e.g., data science, data engineering and scientific web development: a compilation of installation notes and tutorials to get underway.
 
 **How to use?**
 
@@ -12,7 +12,7 @@ This is a guide to the tools required for getting started with data science: a c
 
 **Everything is permissively licensed, with attribution please.**
 
-![](/assets/image3.png)**By Nico Preston 2017 \(CC BY-NC-ND 4.0\)**
+**By Nico Preston 2017 \(CC BY-NC-ND 4.0\)**
 
 K**eywords: **data science, tutorial, python, r, gis, javascript, ai, nlp
 
