@@ -4,8 +4,8 @@
 * [Introduction](README.md)
 * [CH0 - Getting Started](ch0-getting-started.md)
 * [CH1 - Package Managers](ch2-package-managers.md)
+* [CH2 - Scripting Languages](ch2-scripting-languages.md)
 * [CH3 - Version Control](ch3-version-control.md)
-* [CH2 - Scripting Languages](ch3-scripting-languages.md)
 * [CH4 - Data](ch4-get-me-some-data.md)
 * [CH5 - Artificial intelligence](ch5-artificial-intelligence.md)
 * [CH6 - Natural Language](ch6-natural-language.md)
@@ -17,6 +17,6 @@
 * [CH12 - Data Engineering](ch12-data-security.md)
 * [REFERENCES](refs.md)
 * [AUTHORS](authors.md)
-* CH3 - Version Control
-* CH4 - Version Control
+* [CH3 - Version Control](ch3-version-control.md)
+* [CH4 - Version Control](ch4-version-control.md)
 
