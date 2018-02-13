@@ -1,5 +1,6 @@
 # Summary
 
+* [Home](home.md)
 * [Preface](preface.md)
 * [Introduction](README.md)
 * [CH0 - Getting Started](ch0-getting-started.md)
@@ -19,3 +20,4 @@
 * [Data Engineering](data-engineering.md)
 * [REFERENCES](refs.md)
 * [AUTHORS](authors.md)
+
