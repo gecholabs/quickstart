@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Introduction · GitBook</title>
+        <title>CH1 - Package Managers · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="ch0-getting-started.html" />
+    <link rel="next" href="ch2-scripting-languages.html" />
     
     
-    <link rel="prev" href="preface.html" />
+    <link rel="prev" href="ch0-getting-started.html" />
     
 
     </head>
@@ -102,7 +102,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.2" data-path="./">
+        <li class="chapter " data-level="1.2" data-path="./">
             
                 <a href="./">
             
@@ -128,7 +128,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4" data-path="ch1-package-managers.html">
+        <li class="chapter active" data-level="1.4" data-path="ch1-package-managers.html">
             
                 <a href="ch1-package-managers.html">
             
@@ -366,7 +366,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >Introduction</a>
+        <a href="." >CH1 - Package Managers</a>
     </h1>
 </div>
 
@@ -381,46 +381,55 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="introduction">Introduction</h1>
-<h3 id="why-learn-the-full-stack-for-data-science"><strong>Why learn the &#x201C;full-stack&#x201D; for data science?</strong></h3>
-<p>The &#x201C;stack&#x201D; describes the components and tools with which a practicing data scientist interacts from end-to-end, from servers to visualizations and everything in between. There are specialist trades along on the way e.g., devops engineers, UX designers, analysts, programmers, DBAs, software engineers &#x2026; the list is long. This guide is not a source of expertise on each of these trades; however, I&apos;ve managed teams on large data science projects that cover most areas and through this guide seek to share ways to combing these capabilities to tackle real world problems.</p>
-<p>For managers or founders cultivating projects in this space, it is worthwhile to be versed in the technologies at a high level and/or to be able to rapidly prototype your ideas. You don&#x2019;t need to know all the parts to get underway,and I&#x2019;ll try to setup the guide to allow you to jump into the sections of interest. The chapters are not compeletely autonomous, the &quot;core setup&quot; is relevant to all chapters and is provided seperately to avoid repetition.  You should install the &#x201C;core setup&#x201D; first to get your laptop operational.</p>
-<h3 id="opinions"><strong>Opinions</strong></h3>
-<p>I express strongly held opinions in this guide. There are many ways to skin a cat but over time I&#x2019;ve found the tools described here to be effective and they work well together. They provide a start point for your data adventures; however, you may eventually come to prefer alternative editors, package managers, etc&#x2026; and the landscape is constantly evolving.<strong>    </strong></p>
-<h3 id="core-components"><strong>Core components?</strong></h3>
-<p>To explore data science, you need the following capabilities (<strong>warning</strong> opinionated):</p>
-<h4 id="1-package-manager">1. Package Manager</h4>
-<p>... <em>to</em> install and manage software</p>
-<p><strong>Recommendation</strong>: Homebrew works well for Macs</p>
-<h4 id="2-scripting-language">2. Scripting language</h4>
-<p>... <em>to</em> shape, analyze, and display data</p>
-<p><strong>Recommendation</strong>: Python is versatile (e.g. stats, maps, models, text, etc..)</p>
-<h4 id="3-code-editor">3. Code editor</h4>
-<p>... <em>to</em> write and edit code</p>
-<p><strong>Recommendation</strong>: Atom is extensible, reliable, and intuitive</p>
-<h4 id="4-versioning">4. Versioning</h4>
-<p>... <em>to</em> &#x201C;save&#x201D; snapshots of your work history and collaborate</p>
-<p><strong>Recommendation</strong>: Git is distributed and promotes reusibility</p>
-<h4 id="5-lab-book">5. Lab book</h4>
-<p>... <em>to</em> explore data and annotate your work</p>
-<p><strong>Recommendation</strong>: Jupyter supports inline graphs, multiple programming languages, and is easy to share and use</p>
-<p>...everything else is pretty much optional</p>
-<p><strong>TL;DR</strong> this is a choose-your-own-adventure guide to data science; please pick and choose according to your interests and needs. Install the core components first (Homebrew, Python, Atom, Git, and Jupyter) they are necessary for all chapters!</p>
-<h4 id="caveats"><strong>Caveats</strong></h4>
-<ul>
-<li><p>Installation guides go out-of-date quickly. I try to keep up but help is appreciated (e.g. Github issue reports or emails)</p>
-</li>
-<li><p>This is Mac specific; unfortunately, I no longer have the cycles for Windows or Linux</p>
-</li>
-<li><p>Installing things can damage your laptop, I recommend package managers wherever possible to not clobber your settings or bare metal operating system. I&apos;ll eventually post to Github the install scripts to build the software in this guide</p>
-</li>
-<li><p>I&#x2019;ve been writing this guide quickly, some sources may not be properly referenced, blanket acknowledgement for sources = &#x201C;The Interwebs.&#x201D;</p>
-</li>
-</ul>
-<h4 id="guide-to-the-guide"><strong>Guide to the Guide</strong></h4>
-<p><strong>Code</strong> is embedded in a grey box from which to copy and paste</p>
-<pre><code>echo &quot;hello world&quot;
-</code></pre>
+                                <h1 id="ch-1---package-managers-">CH 1 - <strong>Package Managers </strong></h1>
+<p><strong>Use one, seriously just do it!</strong></p>
+<p>Package managers are used to easily install packages (software) on your machine. I use package managers extensively while working with Linux operating systems. Recently, some good variants have become available to Mac OS; this has been a game changer. Packages help ensure software is interoperable. A frequent challenge for new Linux users is compiling code, e.g. turning raw code into a functional application. Usually the user runs in a series of failed compiles; requiring them to decipher cryptic error messages then compile missing dependencies. With package managers, user benefits from the community (crowd) working together to package software and resolve depedencies. Another benefit is that the packages can be kept seperate from the software with which  your machine ships. For example, your Mac ships with Python, while you can change or upgrade the core Python installation,  this can introduce issues with other software on your system. By installing in a new isolated directory (e.g. usr/local/cellar) you can install, uninstall, and switch between versions of software.</p>
+<p>This phenomenon is imporant for the reproducibility of a scientist&apos;s work. For instance, you may develop an analysis that uses multiple libraries to run, then update software for some other application, and suddenly your code won&apos;t load or, worse, the software returns subtly different results. Package managers help partially in this situation, since you can easily roll back the version and its dependencies; however, a true solution also requires containers that freeze the versions of the code used for the analysis. These containers can  be run years later with the same old code versions and consistent results. We will discuss containerization in a later section. For now, we will discuss using package managers to facilitate loading software and protecting your core system from side effects.</p>
+<p>Another aspect of reproducibility is ensuring consistent results across machines and rapidly setting up new machines. You can install this software with simple shell scripts that run in the terminal and  can be managed by a lab group and shared with everyone on the team. If you change laptops you can quickly get up an running again or help setup your colleagues and students. I keep a record of all the software I install in a large batch file. I&apos;ll clean up and share this file in a later version. Essentially, it looks something like this:</p>
+<pre><code># Useful binaries
+binaries=(
+  ack
+  boot2docker
+  git
+  graphicsmagick
+  mongo
+  node
+  phantomjs
+  python
+)
+
+# Install the binaries
+brew install ${binaries[@]}
+</code></pre><p>I currently use four different package managers for data science:</p>
+<h3 id="0-homebrew">0) <strong>Homebrew</strong></h3>
+<p>Manages the setup of your entire Mac. Homebrew is invaluable and leaves your system settings untouched. Homebrew is called the &quot;missing package manager for Mac OSx.&quot; It is a beer themed package management system. You tap a repository to access files.</p>
+<p>To check on the health of your packaged, e.g. check for updates and verify configuration use</p>
+<pre><code>brew doctor
+</code></pre><p>You can usually ignore any warnings, they are just a suggestion. If something needs fixing Brew Doctor will give you the command you need to run. Most of these are safe to run. It is very satisfying to have a clean bill of health from the Brew Doctors.</p>
+<p>To maintain your home brew, these commands are usually run together</p>
+<pre><code>brew update &amp;&amp; brew upgrade
+</code></pre><p>To install software use the syntax brew install XYZ, e.g.</p>
+<pre><code>brew install python
+</code></pre><p>To uninstall software use brew uninstall XYZ, e.g.</p>
+<pre><code>brew uninstall python
+</code></pre><p>Sometimes you need to search for the software to get the spelling correct, try this</p>
+<pre><code>brew SEARCH?
+</code></pre><p>Alternatively, you can just google the name of the software and homebrew and you&apos;ll usually find an example in a forum post. Be careful cutting and pasting code from forum posts, make sure you understand what it does. Commands like brew install and the name of the library you are looking for is generally a safe operation; you can always brew uninstall if you don&apos;t like it.</p>
+<p>Some full software suites, or binaries are managed with brew cask, for example:</p>
+<pre><code>brew CASK INSTALL?
+</code></pre><p>Other packages outside the core are managed in seperate repositories you may need to tap. For example, some favorite scientific and geospatial repositories are here:</p>
+<pre><code>BREW TAP?
+</code></pre><h3 id="1-conda">1) <strong>Conda</strong></h3>
+<p>Manages packages (especially Python) in your Anaconda environment (curated by Anaconda - formerly Continuum IO). This system is used specifically to manage python libraries with the Anaconda installation</p>
+<p>To install</p>
+<p>To uninstall</p>
+<p>To find</p>
+<h3 id="2-pip">2) <strong>Pip</strong></h3>
+<p>Manages Python across your machine (curated by Python community). This environment is called the Cheese factory--a Monty Python reference, like many things Pythonic. Pip replaced easy_install. You will often see reference to both, use Pip for more consistent results.</p>
+<h3 id="3-npm">3) <strong>NPM</strong></h3>
+<p>Manages your Node.js javascript packages</p>
+<p>There are more coming down the pipe, and referenced in this guide, but it is worth using these for now.</p>
+
                                 
                                 </section>
                             
@@ -447,12 +456,12 @@
 
             
                 
-                <a href="preface.html" class="navigation navigation-prev " aria-label="Previous page: Preface">
+                <a href="ch0-getting-started.html" class="navigation navigation-prev " aria-label="Previous page: CH0 - Getting Started">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="ch0-getting-started.html" class="navigation navigation-next " aria-label="Next page: CH0 - Getting Started">
+                <a href="ch2-scripting-languages.html" class="navigation navigation-next " aria-label="Next page: CH2 - Scripting Languages">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -463,7 +472,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"1.2","depth":1,"next":{"title":"CH0 - Getting Started","level":"1.3","depth":1,"path":"ch0-getting-started.md","ref":"ch0-getting-started.md","articles":[]},"previous":{"title":"Preface","level":"1.1","depth":1,"path":"preface.md","ref":"preface.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2018-02-09T15:55:43.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-02-13T16:00:04.176Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"CH1 - Package Managers","level":"1.4","depth":1,"next":{"title":"CH2 - Scripting Languages","level":"1.5","depth":1,"path":"ch2-scripting-languages.md","ref":"ch2-scripting-languages.md","articles":[]},"previous":{"title":"CH0 - Getting Started","level":"1.3","depth":1,"path":"ch0-getting-started.md","ref":"ch0-getting-started.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"ch1-package-managers.md","mtime":"2018-02-10T12:10:22.067Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-02-13T16:00:04.176Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
