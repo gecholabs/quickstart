@@ -7,8 +7,8 @@
 | -------------  | ------------- |------------- |------------- |
 | The Humanitarian Data Exchange | [humdata.org](https://data.humdata.org/) |  |   |
 | Global Healthsites Mapping Project  | [healthsites.io](https://healthsites.io/) and [API](https://github.com/healthsites/healthsites/wiki/API)  |[@sharehealthdata](https://twitter.com/sharehealthdata) |[Chat space](https://gitter.im/healthsites/healthsites) |
-| ProMED-mail | [promedmail.org](http://www.promedmail.org) | #ProMED | |
-| GECHO data and guides | [gecho.org](https://www.gecho.org) | #gecholabs | |
+| ProMED-mail | [promedmail.org](http://www.promedmail.org) | @ProMED_mail | |
+| GECHO data and guides | [gecho.org](https://www.gecho.org) | @gecholabs | |
 
 ## Relevant Data Repositories (from gecho.org)
 
