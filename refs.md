@@ -3,10 +3,10 @@
 ## Hackathon Data Resources
 
 ---
-| Name   | API  link | Twitter handle |Chat space |
+| Name   | Link | Twitter  | Chat |
 | -------------  | ------------- |------------- |------------- |
-| [The Humanitarian Data Exchange](https://data.humdata.org/)  |   |API link  |Twitter handle |Chat space |
-| [Global Healthsites Mapping Project](https://healthsites.io/)   |[API link](https://github.com/healthsites/healthsites/wiki/API)  |[@sharehealthdata](https://twitter.com/sharehealthdata) |[Chat space](https://gitter.im/healthsites/healthsites) |
+| The Humanitarian Data Exchange | [The Humanitarian Data Exchange](https://data.humdata.org/) |  |   |
+| [Global Healthsites Mapping Project](https://healthsites.io/)  |[API](https://github.com/healthsites/healthsites/wiki/API)  |[@sharehealthdata](https://twitter.com/sharehealthdata) |[Chat space](https://gitter.im/healthsites/healthsites) |
 | ProMED-mail | http://www.promedmail.org | #ProMED |
 | GECHO data and guides | https://www.gecho.org | #gecholabs | |
 
