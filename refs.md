@@ -18,7 +18,7 @@
 | CDC WONDER data retrieval system | Public health data | [http://wonder.cdc.gov/](http://wonder.cdc.gov/) |
 | CDC: GIS Data Links | Public Health Resources, GIS Data, Social Determinants of Health Resources, and Environmental Health Data Resources | [http://www.cdc.gov/dhdsp/maps/gisx/resources/geo-spatial-data.html](http://www.cdc.gov/dhdsp/maps/gisx/resources/geo-spatial-data.html) |
 | Census Bureau | Census data | [http://www.census.gov/geography.html](http://www.census.gov/geography.html) |
-| [Data.gov](http://Data.gov) | U.S. Government data, tools, and resources | [http://data.gov/](http://data.gov/) |
+| Data.gov | U.S. Government data, tools, and resources | [http://data.gov/](http://data.gov/) |
 | Food and Agriculture Organization | UN food security data | [http://www.fao.org/geonetwork/srv/en/main.home](http://www.fao.org/geonetwork/srv/en/main.home) |
 | Food and Nutrition Information Center | Agricttural Data | [https://www.nal.usda.gov/ks](https://www.nal.usda.gov/ks) |
 | GeoCommons | 150,000 data sets from public and open government website and sources. | [http://geocommons.com/](http://geocommons.com/) |
