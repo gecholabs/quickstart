@@ -6,7 +6,7 @@
 | Name   | Link | Twitter  | Chat |
 | -------------  | ------------- |------------- |------------- |
 | The Humanitarian Data Exchange | [humdata.org](https://data.humdata.org/) |  |   |
-| [Global Healthsites Mapping Project](https://healthsites.io/)  |[API](https://github.com/healthsites/healthsites/wiki/API)  |[@sharehealthdata](https://twitter.com/sharehealthdata) |[Chat space](https://gitter.im/healthsites/healthsites) |
+| [Global Healthsites Mapping Project](https://healthsites.io/)  |[Healthsites API](https://github.com/healthsites/healthsites/wiki/API)  |[@sharehealthdata](https://twitter.com/sharehealthdata) |[Chat space](https://gitter.im/healthsites/healthsites) |
 | ProMED-mail | [promedmail.org](http://www.promedmail.org) | #ProMED | |
 | GECHO data and guides | [gecho.org](https://www.gecho.org) | #gecholabs | |
 
