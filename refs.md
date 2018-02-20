@@ -1,12 +1,16 @@
 # REFERENCES
 
+## Hackathon Data Resources
+
 ---
+| Name   | API  link | Twitter handel |Chat space |
+| -------------  | ------------- |------------- |------------- |
+| [The Humanitarian Data Exchange](https://data.humdata.org/)  |   |API link  |Twitter handle |Chat space |
+| [Global Healthsites Mapping Project](https://healthsites.io/)   |[API link](https://github.com/healthsites/healthsites/wiki/API)  |[@sharehealthdata](https://twitter.com/sharehealthdata) |[Chat space](https://gitter.im/healthsites/healthsites) |
+| ProMED-mail | http://www.promedmail.org | #ProMED |
+| GECHO data and guides | https://www.gecho.org | #gecholabs |
 
-
-
-
-
-Data Respositories
+## Relevant Data Repositories (from gecho.org)
 
 | Name | Description | Link |
 | :--- | :--- | :--- |
@@ -34,6 +38,3 @@ Data Respositories
 | World Bank Data | Free and open access to global development data | [https://data.worldbank.org/](https://data.worldbank.org/) |
 | World Bank Data Catalog | Development data | [http://datacatalog.worldbank.org/](http://datacatalog.worldbank.org/) |
 | WWF | Conservation Science Data and Tools | [http://worldwildlife.org/pages/conservation-science-data-and-tools](http://worldwildlife.org/pages/conservation-science-data-and-tools) |
-
-
-
