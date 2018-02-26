@@ -14,8 +14,9 @@ _v0.0.4 - 26 Feb 2018_
 
 ---
 
-**Everything is permissively licensed, with attribution please.**
+**Everything is Creative Commons licensed with attribution please, thanks.**
 
 **By Nico Preston 2017 \(CC BY-NC-ND 4.0\)**
 
 K**eywords: **data science, tutorial, python, r, javascript, homebrew, jupyter, git, atom
+
