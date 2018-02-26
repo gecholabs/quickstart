@@ -2,13 +2,13 @@
 
 ### **Why the “full-stack” \(wtf\)?**
 
-The “stack” describes the technical components and tools with which data scientists interact from end-to-end, from servers to visualizations and everything in between. There are specialist trades along on the way e.g., DevOps engineers, User Experience \(UX\) designers, analysts, programmers, Data Base Administrators \(DBAs\), software engineers … the list is long. This guide is not a source of expertise on each of these trades; however, I've managed teams on large technical projects that cover most areas and through this guide seek to share ways to combine these capabilities to tackle real world problems.
+The “stack” describes the technical components and tools with which data scientists interact from end-to-end, from servers to visualizations and everything in between. There are specialist trades along on the way e.g., DevOps engineers, User Experience \(UX\) designers, analysts, programmers, Data Base Administrators \(DBAs\), software engineers … the list is long. This guide is not a source of expertise on each of these trades; however, I've on large technical projects with teams that cover most areas of expertise and through this guide seek to share ways to combine these capabilities to tackle real world problems.
 
-For managers or founders cultivating projects in this space, it is worthwhile to be versed in the technologies at a high level and/or to be able to rapidly prototype your ideas. You don’t need to know all the parts to get underway, and I’ll try to setup the guide to allow you to jump into the sections of interest. The chapters are not completely autonomous, the "core setup" is relevant to all chapters and is provided separately to avoid repetition.  You should install the “core setup” first to get your laptop operational.
+For managers or founders cultivating projects in this space, it is worthwhile to be versed in the technologies at a high level and/or to be able to rapidly prototype your ideas. You don’t need to know all the parts to get underway, and I’ll try to setup the guide to allow you to jump into the sections of interest. The chapters are not completely autonomous, the "core setup" is relevant to all chapters and is provided separately to avoid repetition.  You should install the “core setup” first to get your laptop "fully operational."
 
 ### **Opinions**
 
-I express strongly held opinions in this guide. There are many ways to skin an octocat but over time I’ve found the tools described herein to be effective and work well together. They provide a start point for your technical science adventures; however, you may eventually come to prefer alternative editors, package managers, etc… and the landscape is constantly evolving.**    **
+I express strongly-held opinions in this guide. There are many ways to skin an octocat but over time I’ve found the tools described herein to be effective and work well together. They provide a start point for your data science adventures; however, you may eventually come to prefer alternative editors, package managers, etc… and the landscape is constantly evolving.**  **
 
 ### **Core components?**
 
@@ -46,21 +46,21 @@ To explore data science, you need the following capabilities \(**warning** opini
 
 ...everything else is pretty much optional
 
-**TL;DR** this is a choose-your-own-adventure guide to data science; please pick and choose according to your interests and needs. Install the core components first \(Homebrew, Python, Atom, Git, and Jupyter\) they are necessary for all chapters!
+**TL;DR** this is a choose-your-own-adventure guide to data science; please pick and choose according to your interests and needs. Please install the [core components](/ch0-getting-started.md) first \(Homebrew, Python, Atom, Git, and Jupyter\) they are necessary for all chapters!
 
 #### **Caveats**
 
-* Installation guides go out-of-date quickly. I try to keep up but help is appreciated \(e.g. Github issue reports or email\)
+* Installation guides go out-of-date quickly. I'll try to keep up but help is appreciated \(e.g. [Github](https://github.com/gecholabs) issues or email\)
 
-* This is Mac specific; unfortunately, I no longer have the cycles for Windows or Linux
+* This Guide is Mac specific; unfortunately, I no longer have the cycles for Windows or Linux
 
-* Installing things can damage your laptop, I recommend package managers wherever possible to not clobber your settings or bare metal operating system. I'll eventually post to Github the install scripts to build the software in this guide
+* Installing things can damage your laptop, I recommend package managers wherever possible to not clobber your settings or bare metal operating system. I'll eventually post the install scripts to build the software in this guide on [Github](https://github.com/gecholabs).
 
-* I’ve been writing this guide quickly, some sources may not be properly referenced, blanket acknowledgement for sources = “The Interwebs.”
+* I’ve been writing this guide quickly to share with colleagues, some sources may not be properly referenced. Blanket acknowledgement for sources = “The Interwebs.”
 
 #### **Guide to the Guide**
 
-**Code** is embedded in a grey box from which to copy and paste
+**Code** is embedded in a grey box from which to copy and paste, e.g.
 
 ```
 echo "hello world"
