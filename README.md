@@ -1,8 +1,8 @@
 # Introduction
 
-### **Why learn “full-stack” ?**
+### **Why the “full-stack” \(wtf\)?**
 
-The “stack” describes the components and tools with which a practicing global health scientist interacts from end-to-end, from servers to visualizations and everything in between. There are specialist trades along on the way e.g., DevOps engineers, User Experience \(UX\) designers, analysts, programmers, Data Base Administrators \(DBAs\), software engineers … the list is long. This guide is not a source of expertise on each of these trades; however, I've managed teams on large technical projects that cover most areas and through this guide seek to share ways to combing these capabilities to tackle real world problems.
+The “stack” describes the technical components and tools with which a practicing global scientist interacts from end-to-end, from servers to visualizations and everything in between. There are specialist trades along on the way e.g., DevOps engineers, User Experience \(UX\) designers, analysts, programmers, Data Base Administrators \(DBAs\), software engineers … the list is long. This guide is not a source of expertise on each of these trades; however, I've managed teams on large technical projects that cover most areas and through this guide seek to share ways to combing these capabilities to tackle real world problems.
 
 For managers or founders cultivating projects in this space, it is worthwhile to be versed in the technologies at a high level and/or to be able to rapidly prototype your ideas. You don’t need to know all the parts to get underway, and I’ll try to setup the guide to allow you to jump into the sections of interest. The chapters are not completely autonomous, the "core setup" is relevant to all chapters and is provided separately to avoid repetition.  You should install the “core setup” first to get your laptop operational.
 
