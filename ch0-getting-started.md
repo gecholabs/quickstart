@@ -20,13 +20,13 @@
 
 ## How to do the core Setup
 
-There are three ways to approach your scientific setup: 
+There are three ways to approach your scientific setup:
 
- a\) [Chapter 0 / Section 0](#0-quickstart-tldr) : Quickstart gets you setup in five steps \(copy and paste into your terminal\)
+a\) [Chapter 0 / Section 0](#0-quickstart-tldr) : Quickstart gets you setup in five steps \(copy and paste into your terminal\)
 
- b\) [Chapter0 /  Sections 1-5](#1-package-manager-homebrew) : Read the background and run the code in each section
+b\) [Chapter0 /  Sections 1-5](#1-package-manager-homebrew) : Read the background and run the code in each section
 
- c\)[ Chapters 1-5](/ch1-package-managers.md) : Read the entire guide to learn more about these tools and install those you need
+c\)[ Chapters 1-5](/ch1-package-managers.md) : Read the entire guide to learn more about these tools and install those you need
 
 We recommend you just pull the ripcord and run the [Quickstart](#0-quickstart-tldr), then you can play with the tools as you go and run examples from this Guide and others in the [GECHO](https://gecho.org/guides) guide collection. You can always uninstall the stuff you don't need or like; what's more we use package managers to isolate the software you install from the system  so it "should" not affect your core machine.
 
@@ -44,11 +44,11 @@ We recommend you just pull the ripcord and run the [Quickstart](#0-quickstart-tl
 
 ![](/assets/image7.png)
 
-Yours may be transparent and the fonts may be small. You can change this in the preferences. The black background with white text is the “Pro” profile; I like to bump the font up to ~18pt.
+Yours may be transparent and the fonts may be small. You can change this in the preferences. The black background with white text is the “Pro” profile; I like to bump up the font to ~18pt.
 
 ![](/assets/image14.png)
 
-**                                          
+**                                            
 **
 
 ![](/assets/image4.png)
@@ -57,25 +57,23 @@ Yours may be transparent and the fonts may be small. You can change this in the 
 
 **Quickstart installation**
 
-If you don’t feel like reading details about the tools, just run these scripts in the terminal and you’ll be good to go with the core setup:
+If you don’t feel like reading details about the tools, just run these scripts in the terminal and you’ll be good to go:
 
 ```bash
 # 1 - install and update homebrew (package manager)
-ruby -e"$(curl -fsSL 
-https://raw.githubusercontent.com/Homebrew/install/master/install\
-)" 
+ruby -e"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install\)"
 brew update && brew upgrade
 
 # 2 - Install Anaconda Python (scripting language)
-brew cask install Anaconda 
+brew cask install Anaconda
 
 # 3 - Install Git (version control)
-brew install git 
+brew install git
 
 # 4 - Install Atom (code editor)
 brew cask install atom
 
-# 5 - Open a Jupyter (lab notebook) and preview at http://localhost:8888/
+# 5 - Open a Jupyter notebook and preview at http://localhost:8888/
 jupyter notebook
 ```
 
