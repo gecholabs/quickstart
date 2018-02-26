@@ -4,7 +4,7 @@ I found the Python language via R. Specifically, I did the analyses for my disse
 
 ![](/assets/image1.png)
 
-## Python plus R \(the killer combo\)
+## Python plus R: the killer combo
 
 ### **Why Python \(my personal favorite\)**
 
@@ -18,7 +18,7 @@ I found the Python language via R. Specifically, I did the analyses for my disse
 
 #### Installing Python \(Conda Distribution\)
 
-I’m hesitant to recommend a particular vendor, but installing Python for scientific computing can be a challange. The Anaconda \(yes, it's a snake ... get it\) folks have resolved many of headaches \(e.g. SciPy installation\)
+I’m hesitant to recommend a particular vendor, but installing Python for scientific computing can be a challange. The Anaconda \(it's a snake ... get it\) folks have resolved many of headaches \(e.g. SciPy installation\)
 
 > From [https://www.continuum.io/downloads](https://www.continuum.io/downloads)
 
@@ -31,13 +31,11 @@ brew cask install Anaconda
 
 See [Package Managers \(Conda\)](/ch1-package-managers.md)
 
-
-
 ### **What About R**
 
-R \(another fantastic language\) was written initially by statisticians for statisticians; in that capacity it is excellent. Indeed my university stats professor was an early adopter. He'd tired of developing methods only to have to pay a license so his students could use an outdated version of his own method. Unfortuntely, from teaching and training colleagues and students, I've found the learning curve can be needlessly steep, it is mostly limited to analytics, the input/output is excruciating, and  the parts don’t quite work together. However, if you are doing an analysis it is **THE** definitive source of packages and the **dataframe** concept is pure genius. RShiny has made it easy to share your results online, RStudio is slick, and the stats libraries are industry standard.
+R \(another fantastic language\) was written initially by statisticians for statisticians; in that capacity it is excellent. Indeed my university stats professor was an early adopter. He'd tired of developing methods only to have to pay a license so his students could use an outdated version of his own method. Unfortuntely, from teaching and training colleagues and students, I've found the learning curve can be needlessly steep, it is mostly limited to analytics, the input/output is excruciating, and  the parts don’t quite work together. You can get around many of these issues with Python. However, if you are doing an analysis it is **THE** definitive source of packages and the **dataframe** concept is pure genius. RShiny has made it easy to share your results online, RStudio is a slick graphical user interface \(GUI\), and the stats libraries are industry standard \(period\).
 
-**Installing R**
+#### **Installing R**
 
 **Just the core**
 
@@ -96,7 +94,7 @@ The definiative guide to Pandas is written by Wes Mckinney, the author of the pa
 
 **And, an intro to Pandas**
 
-[**https://pandas.pydata.org/pandas-docs/stable/10min.html**](https://pandas.pydata.org/pandas-docs/stable/10min.html)**                  
+[**https://pandas.pydata.org/pandas-docs/stable/10min.html**](https://pandas.pydata.org/pandas-docs/stable/10min.html)**                    
 **
 
 Combining Python, DataFrames and R
@@ -131,7 +129,7 @@ ggplot(df) + geom_density(aes(x=value))
 
 ## **Javascript**
 
-**                  
+**                    
 **
 
 ## **Scala**
