@@ -50,7 +50,7 @@ Yours may be transparent and the fonts may be small. You can change this in the 
 
 ![](/assets/image14.png)
 
-**                                              
+**                                                
 **
 
 ![](/assets/image4.png)
@@ -94,12 +94,12 @@ You can remove Homebrew and all the dependencies anytime you want without affect
 > From [Homebrew.com](https://homebrew.com)
 
 ```rust
-# Install and update homebrew
+## Install and update homebrew
 ruby -e"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install\)"
 brew update
 brew upgrade
 
-#list Homebrew installed software 
+## List Homebrew installed software 
 ls /usr/local/cellar
 ```
 
