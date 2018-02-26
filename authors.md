@@ -1,4 +1,4 @@
-# AUTHORS
+# Authors
 
 ---
 
@@ -6,26 +6,23 @@ Names below are ordered by first contribution.
 
 ## Authors
 
-- Nico Preston &lt;nicopresto@gmail.com&gt; \(@nicopresto\)
+* Nico Preston &lt;nicopresto@gmail.com&gt; \(@nicopresto\)
 
 ## Contributors
-
-
 
 ## Translators
 
 * English
 
-  *   Nico Preston \(@nicopresto\)
+  * Nico Preston \(@nicopresto\)
 
-* French
+* French \(pending\)
 
   * Nico Preston \(@nicopresto\)
 
-* Spanish
+* Spanish \(pending\)
+
   * Nico Preston \(@nicopresto\)
-
-
 
 
 
