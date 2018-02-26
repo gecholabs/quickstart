@@ -50,7 +50,7 @@ Yours may be transparent and the fonts may be small. You can change this in the 
 
 ![](/assets/image14.png)
 
-**                                                
+**                                                  
 **
 
 ![](/assets/image4.png)
@@ -139,7 +139,7 @@ From [**https://github.com/explore**](https://github.com/explore)
 **To install:**
 
 ```
-# install Git
+## install Git
 brew install git
 ```
 
@@ -218,4 +218,20 @@ You’ll eventually probably tidy up your code into a series of files, perhaps m
 You can find gazillions of fully-annotated Jupyter notebooks in the wild, in places like GitHub.
 
 ![](/assets/image5.png)
+
+![](/assets/ipython notecooks.png)
+
+
+
+You can also increasingly find Appendices to scientific papers in this format, for example:
+
+[**Predicting Coronal Mass Ejections Using Machine Learning Methods**](http://dx.doi.org/10.3847/0004-637X/821/2/127) by Monica Bobra and Stathis Ilonidis \(Astrophysical Journal, 2016\). An [**IPython notebook**](http://nbviewer.jupyter.org/github/mbobra/machine-learning-with-solar-data/blob/master/cme_svm.ipynb), which reproduces all the results, has been permanently deposited in the [**Stanford Digital Repository**](https://purl.stanford.edu/wt605kh4712).
+
+
+
+[![](/assets/coronal.png)](http://nbviewer.jupyter.org/github/mbobra/machine-learning-with-solar-data/blob/master/cme_svm.ipynb)
+
+Indeed, you can find entire software container platforms \(e.g. Docker\) that are preconfigured for data science. Set them up and you have an entire environment ready to code \(e.g. Python + Spark + Scipy\). Using them is a bit more involved, so we'll discuss them in a later guide on containerization.
+
+**.**
 
