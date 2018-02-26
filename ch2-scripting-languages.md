@@ -56,8 +56,6 @@ I consider Python to be more versatile for my use case as a full-stack data scie
 
 2\) Pandas dataframes in Python
 
-
-
 #### 1\) **Calling R from Python**
 
 ##### Install RPY2
@@ -65,8 +63,6 @@ I consider Python to be more versatile for my use case as a full-stack data scie
 ```
 conda install rpy2Jupyter notebook
 ```
-
-
 
 ##### Load and run RPY2 i**n a Jupyter Notebook**
 
@@ -135,10 +131,10 @@ ggplot(df) + geom_density(aes(x=value))
 
 ## **Javascript**
 
-**                        
+_\(in progress\)_**                          
 **
 
 ## **Scala**
 
-
+_\(in progress\)_
 

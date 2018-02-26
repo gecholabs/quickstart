@@ -12,17 +12,19 @@ Names below are ordered by first contribution.
 
 ## Translators
 
-* English
+English
 
-  * Nico Preston \(@nicopresto\)
+* Nico Preston \(@nicopresto\)
 
-* French \(pending\)
+French \(in progress\)
 
-  * Nico Preston \(@nicopresto\)
+* Nico Preston \(@nicopresto\)
 
-* Spanish \(pending\)
+Spanish \(in progress\)
 
-  * Nico Preston \(@nicopresto\)
+* Nico Preston \(@nicopresto\)
+
+
 
 
 
