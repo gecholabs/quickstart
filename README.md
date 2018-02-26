@@ -1,4 +1,4 @@
-> _v0.11 - 26 Feb 2018_
+> _v0.0.4 - 26 Feb 2018_
 
 ---
 
@@ -75,6 +75,3 @@ To explore data science, you need the following capabilities \(**warning** opini
 ```
 echo "hello world"
 ```
-
-
-

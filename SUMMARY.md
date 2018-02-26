@@ -9,7 +9,6 @@
 * [CH3 - Version Control](ch3-version-control.md)
 * [CH4 - Code editors](ch4-code-editors.md)
 * [CH5 - Lab Notebooks](ch5-lab-notebooks.md)
-* [REFERENCES](refs.md)
-* [AUTHORS](authors.md)
-* [Release Notes](release-notes.md)
-
+* [References](refs.md)
+* [Authors](authors.md)
+* [Changes](changes.md)

@@ -4,7 +4,7 @@ This is a guide to the tools required for getting started for scientific computi
 
 **Version**
 
-_v0.11 - 26 Feb 2018_
+_v0.0.4 - 26 Feb 2018_
 
 **How to use?**
 
@@ -19,4 +19,3 @@ _v0.11 - 26 Feb 2018_
 **By Nico Preston 2017 \(CC BY-NC-ND 4.0\)**
 
 K**eywords: **data science, tutorial, python, r, javascript, homebrew, jupyter, git, atom
-

@@ -1,4 +1,4 @@
-# CH 2 - **Scripting \(programming\) languages**
+# CH 2 - **Scripting \(Programming\) Languages**
 
 I found the Python language via R. Specifically, I did the analyses for dissertation exclusively in R. When I was trying to develop a web interface to my results \(pre R-Shiny\), I stumbled across Ruby on Rails and RSRuby. As I followed the trail, I realized it was a fork of R2Py and wham, discovered Python. My first experience of PyCon was like walking into Lothlórien. It felt like an epiphany at the time and I’ve never looked back.**              
 **
@@ -30,7 +30,7 @@ R \(another fantastic language\) was written initially by statisticians for stat
 **All the things**
 
 ```
-brew tap homebrew/science 
+brew tap homebrew/science
 brew install Rbrew install Caskroom/cask/rstudio
 ```
 
@@ -94,18 +94,18 @@ Now run this code in a Jupyter notebook
 **Cell \#1**
 
 ```
-%load_ext rpy2.ipython 
-import pandas as pd 
-import numpy as np 
-data = np.random.randn(5000,1) 
+%load_ext rpy2.ipython
+import pandas as pd
+import numpy as np
+data = np.random.randn(5000,1)
 df = pd.DataFrame(data, columns=["value"])
 ```
 
 Cell \#2
 
 ```
-%%R -i df -w800-h480-u px 
-library(ggplot2) 
+%%R -i df -w800-h480-u px
+library(ggplot2)
 ggplot(df) + geom_density(aes(x=value))
 ```
 
@@ -119,6 +119,3 @@ ggplot(df) + geom_density(aes(x=value))
 **
 
 ## **Scala**
-
-
-
