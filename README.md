@@ -2,13 +2,13 @@
 
 ### **Why the “full-stack” \(wtf\)?**
 
-The “stack” describes the technical components and tools with which you interact from end-to-end, from servers to visualizations and everything in between. There are specialist trades along on the way e.g., DevOps engineers, User Experience \(UX\) designers, analysts, programmers, Data Base Administrators \(DBAs\), software engineers … the list is long. This guide is not a source of expertise on each of these trades; however, I've managed teams on large technical projects that cover most areas and through this guide seek to share ways to combing these capabilities to tackle real world problems.
+The “stack” describes the technical components and tools with which you interact from end-to-end, from servers to visualizations and everything in between. There are specialist trades along on the way e.g., DevOps engineers, User Experience \(UX\) designers, analysts, programmers, Data Base Administrators \(DBAs\), software engineers … the list is long. This guide is not a source of expertise on each of these trades; however, I've managed teams on large technical projects that cover most areas and through this guide seek to share ways to combine these capabilities to tackle real world problems.
 
 For managers or founders cultivating projects in this space, it is worthwhile to be versed in the technologies at a high level and/or to be able to rapidly prototype your ideas. You don’t need to know all the parts to get underway, and I’ll try to setup the guide to allow you to jump into the sections of interest. The chapters are not completely autonomous, the "core setup" is relevant to all chapters and is provided separately to avoid repetition.  You should install the “core setup” first to get your laptop operational.
 
 ### **Opinions**
 
-I express strongly held opinions in this guide. There are many ways to skin a cat but over time I’ve found the tools described here to be effective and they work well together. They provide a start point for your data adventures; however, you may eventually come to prefer alternative editors, package managers, etc… and the landscape is constantly evolving.**    **
+I express strongly held opinions in this guide. There are many ways to skin an octocat but over time I’ve found the tools described here to be effective and they work well together. They provide a start point for your technical science adventures; however, you may eventually come to prefer alternative editors, package managers, etc… and the landscape is constantly evolving.**    **
 
 ### **Core components?**
 
@@ -38,7 +38,7 @@ To explore data science, you need the following capabilities \(**warning** opini
 
 **Recommendation**: Git is distributed and promotes reusibility
 
-#### 5. Lab book
+#### 5. Lab notebook
 
 ... _to_ explore data and annotate your work
 
