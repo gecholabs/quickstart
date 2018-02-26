@@ -48,7 +48,7 @@ brew tap homebrew/science
 brew install Rbrew install Caskroom/cask/rstudio
 ```
 
-### **Python vs R \(moreso Python + R\)**
+### **Python vs R \(moreso Python plus R\)**
 
 I consider Python to be more versatile for my use case as a full-stack data scientist. So, how does one get the benefits of R without the hassles of R,
 
@@ -94,7 +94,7 @@ The definiative guide to Pandas is written by Wes Mckinney, the author of the pa
 
 **And, an intro to Pandas**
 
-[**https://pandas.pydata.org/pandas-docs/stable/10min.html**](https://pandas.pydata.org/pandas-docs/stable/10min.html)**                    
+[**https://pandas.pydata.org/pandas-docs/stable/10min.html**](https://pandas.pydata.org/pandas-docs/stable/10min.html)**                      
 **
 
 Combining Python, DataFrames and R
@@ -129,7 +129,7 @@ ggplot(df) + geom_density(aes(x=value))
 
 ## **Javascript**
 
-**                    
+**                      
 **
 
 ## **Scala**
