@@ -14,4 +14,5 @@ This is a guide to the tools required for getting started for scientific computi
 
 **By Nico Preston 2017 \(CC BY-NC-ND 4.0\)**
 
-K**eywords: **data science, tutorial, python, r, gis, javascript, ai, nlp
+K**eywords: **data science, tutorial, python, r, javascript, homebrew, jupyter, git, atom
+
