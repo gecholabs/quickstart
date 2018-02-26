@@ -1,28 +1,40 @@
-# CH 0 - **Getting Started**
+# CH 0 - **Getting Started \(Core Setup\)**
 
 ---
 
-**Chapter Contents:**
+#### **Chapter Contents:**
 
-0\) Core setup for your Mac \(Quickstart\)
+**0\)** Quickstart \(tl;dr\)
 
-1\) Package Manager \(Homebrew\)
+**1\)** Package Manager \(Homebrew\)
 
-2\) Scripting language \(Python - Anaconda distro\)
+**2\)** Scripting language \(Python - Anaconda distro\)
 
-3\) Version Control \(Git\)
+**3\)** Version Control \(Git\)
 
-4\) Code Editor \(Atom\)
+**4\)** Code Editor \(Atom\)
 
-5\) Lab notebook \(Jupyter\)
+**5\)** Lab notebook \(Jupyter\)
 
 ---
 
-## 0**\) Core setup for your Mac \(Quickstart\)**
+## How to do the core Setup
+
+There are three ways to approach your scientific setup: 
+
+ a\) [Chapter 0 / Section 0](#0-quickstart-tldr) : Quickstart gets you setup in five steps \(copy and paste into your terminal\)
+
+ b\) [Chapter0 /  Sections 1-5](#1-package-manager-homebrew) : Read the background and run the code in each section
+
+ c\)[ Chapters 1-5](/ch1-package-managers.md) : Read the entire guide to learn more about these tools and install those you need
+
+We recommend you just pull the ripcord and run the [Quickstart](#0-quickstart-tldr), then you can play with the tools as you go and run examples from this Guide and others in the [GECHO](https://gecho.org/guides) guide collection. You can always uninstall the stuff you don't need or like; what's more we use package managers to isolate the software you install from the system  so it "should" not affect your core machine.
+
+## 0\) Q**uickstart \(tl;dr\)**
 
 **Options to open your terminal:**
 
-1. Press CMD⌘+spacebar and typing “terminal” in Spotlight Search \(_hint_: it autocompletes as "Terminal.app" ... so you can press enter after typing the first few letters e.g. "te"\)
+1. Press CMD⌘+spacebar and type “terminal” in Spotlight Search \(_hint_: it autocompletes as "Terminal.app" ... so you can press enter after typing the first few letters e.g. "te"\)
 
 2. Click on "terminal" in your dock      ![](/assets/terminal.png)
 
@@ -36,14 +48,14 @@ Yours may be transparent and the fonts may be small. You can change this in the 
 
 ![](/assets/image14.png)
 
-**                                        
+**                                          
 **
 
 ![](/assets/image4.png)
 
 ---
 
-**Quickstart installation \(tl;dr\)**
+**Quickstart installation**
 
 If you don’t feel like reading details about the tools, just run these scripts in the terminal and you’ll be good to go with the core setup:
 
@@ -198,8 +210,6 @@ jupyter notebook
 ```
 
 This launches a notebook in your web browser. You should read the messages in terminal after running the “jupyter notebook” command. It may suggest you paste a web address into your browser to launch the notebook, e.g. [http://localhost:8888](http://localhost:8888)
-
-
 
 Jupyter notebooks have revolutionized my workflow. The difference between these and a code editor \(e.g. Atom\), is that you can work on an endless scroll, chasing down data trends like a stream of consciousness and leaving notes for yourself on what you’ve tried. You can also embed graphics and other outputs inline, so you don’t need to have multiple windows open. Lastly, they are easy to share with colleagues. You can even setup a centralized server in your office with JupyterHub.
 
