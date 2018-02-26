@@ -1,16 +1,17 @@
-# REFERENCES
+# References
 
 ## Hackathon Data Resources
 
 ---
-| Name   | Link | Twitter  | Chat |
-| -------------  | ------------- |------------- |------------- |
-| The Humanitarian Data Exchange | [humdata.org](https://data.humdata.org/) |  |   |
-| Global Healthsites Mapping Project  | [healthsites.io](https://healthsites.io/) and [API](https://github.com/healthsites/healthsites/wiki/API)  |[@sharehealthdata](https://twitter.com/sharehealthdata) |[Chat space](https://gitter.im/healthsites/healthsites) |
-| ProMED-mail | [promedmail.org](http://www.promedmail.org) | [@ProMED_mail](https://twitter.com/promed_mail) | |
-| GECHO data and guides | [gecho.org](https://www.gecho.org) | [@gecholabs](https://twitter.com/gecholabs) | |
 
-## Relevant Data Repositories (from gecho.org)
+| Name | Link | Twitter | Chat |
+| --- | --- | --- | --- |
+| The Humanitarian Data Exchange | [humdata.org](https://data.humdata.org/) |  |  |
+| Global Healthsites Mapping Project | [healthsites.io](https://healthsites.io/) and [API](https://github.com/healthsites/healthsites/wiki/API) | [@sharehealthdata](https://twitter.com/sharehealthdata) | [Chat space](https://gitter.im/healthsites/healthsites) |
+| ProMED-mail | [promedmail.org](http://www.promedmail.org) | [@ProMED\_mail](https://twitter.com/promed_mail) |  |
+| GECHO data and guides | [gecho.org](https://www.gecho.org) | [@gecholabs](https://twitter.com/gecholabs) |  |
+
+## Relevant Data Repositories \(from gecho.org\)
 
 | Name | Description | Link |
 | :--- | :--- | :--- |
@@ -22,8 +23,8 @@
 | Food and Agriculture Organization | UN food security data | [http://www.fao.org/geonetwork/srv/en/main.home](http://www.fao.org/geonetwork/srv/en/main.home) |
 | Food and Nutrition Information Center | Agricttural Data | [https://www.nal.usda.gov/ks](https://www.nal.usda.gov/ks) |
 | GeoCommons | 150,000 data sets from public and open government website and sources. | [http://geocommons.com/](http://geocommons.com/) |
-| Harvard: GIS Data Links |  University’s catalog and repository for geospatial data | [http://gis.harvard.edu/resources/data/gis-data-harvard](http://gis.harvard.edu/resources/data/gis-data-harvard) |
-| NASA Earthdata |  Earth Observation Data | [https://earthdata.nasa.gov/](https://earthdata.nasa.gov/) |
+| Harvard: GIS Data Links | University’s catalog and repository for geospatial data | [http://gis.harvard.edu/resources/data/gis-data-harvard](http://gis.harvard.edu/resources/data/gis-data-harvard) |
+| NASA Earthdata | Earth Observation Data | [https://earthdata.nasa.gov/](https://earthdata.nasa.gov/) |
 | National Map | Geological topographic information | [http://nationalmap.gov/](http://nationalmap.gov/) |
 | National Weather Service | Weather, water, and climate data | [http://www.nws.noaa.gov/gis/shapepage.htm](http://www.nws.noaa.gov/gis/shapepage.htm) |
 | Natural Earth | Free global vector and raster map data at 1:10m, 1:50m, and 1:110m scales | [http://www.naturalearthdata.com/](http://www.naturalearthdata.com/) |
@@ -38,3 +39,6 @@
 | World Bank Data | Free and open access to global development data | [https://data.worldbank.org/](https://data.worldbank.org/) |
 | World Bank Data Catalog | Development data | [http://datacatalog.worldbank.org/](http://datacatalog.worldbank.org/) |
 | WWF | Conservation Science Data and Tools | [http://worldwildlife.org/pages/conservation-science-data-and-tools](http://worldwildlife.org/pages/conservation-science-data-and-tools) |
+
+
+
