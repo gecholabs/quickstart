@@ -33,21 +33,16 @@ I currently use four different package managers for data science:
 
 Homebrew manages the setup of software on your Mac. Homebrew is invaluable and leaves your system settings untouched. Homebrew is the self-described "missing package manager for Mac OSx." It is a beer-themed package management system, e.g. you tap a repository to access files.
 
-**To install Homebrew**
+#### **Install Homebrew**
 
 > From [Homebrew.com](https://homebrew.com)
 
 ```rust
-## Install and update homebrew
+## Install homebrew
 ruby -e"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install\)"
-brew update
-brew upgrade
-
-## List Homebrew installed software 
-ls /usr/local/cellar
 ```
 
-
+#### Maintain homebrew
 
 To check on the health of your packages, e.g. check for updates and verify configuration use
 
@@ -63,17 +58,31 @@ To maintain your home brew, these commands are usually run together
 brew update && brew upgrade
 ```
 
+#### Install packages
+
 To install software use the syntax brew install XYZ, e.g.
 
 ```
 brew install python
 ```
 
+#### Uninstall packages
+
 To uninstall software use brew uninstall XYZ, e.g.
 
 ```
 brew uninstall python
 ```
+
+#### List packages
+
+To list Homebrew installed software
+
+```rust
+ls /usr/local/cellar
+```
+
+#### Find packages
 
 Sometimes you need to search for the software to get the spelling correct, try this
 
@@ -99,33 +108,95 @@ BREW TAP?
 
 Manages packages \(especially Python\) in your Anaconda environment \(curated by Anaconda - formerly Continuum IO\). This system is used specifically to manage python libraries with the Anaconda installation
 
-To install
+#### Install Conda
 
-To uninstall
 
-To find
+
+#### Maintain Conda
+
+
+
+#### Install packages
+
+
+
+#### Uninstall packages
+
+
+
+#### Maintain packages
+
+
+
+#### Find packages
+
+
+
+#### List packages
+
+
 
 ### 2\) **Pip**
 
 Manages Python across your machine \(curated by Python community\). This environment is called the Cheese factory--a Monty Python reference, like many things Pythonic. Pip replaced easy\_install. You will often see reference to both, use Pip for more consistent results.
 
-To install
+#### Install Pip
 
-To uninstall
 
-To find
+
+#### Maintain Pip
+
+
+
+#### Install packages
+
+
+
+#### Uninstall packages
+
+
+
+#### Maintain packages
+
+
+
+#### Find packages
+
+
+
+#### List packages
 
 ### 3\) **NPM**
 
 Manages your Node.js javascript packages
 
-To install
+#### Install NPM
 
-To uninstall
 
-To find
 
-### Conclusion
+#### Maintain NPM
+
+
+
+#### Install packages
+
+
+
+#### Uninstall packages
+
+
+
+#### Maintain packages
+
+
+
+#### Find packages
+
+
+
+#### List packages
+
+## Conclusions
 
 There are more coming down the pipe, and referenced in this guide, but it is worth using these for now.
 
