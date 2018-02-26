@@ -14,11 +14,11 @@
 
 The “stack” describes the technical components and tools with which data scientists interact from end-to-end, from servers to visualizations and everything in between. There are specialist trades along on the way e.g., DevOps engineers, User Experience \(UX\) designers, analysts, programmers, Data Base Administrators \(DBAs\), software engineers … the list is long. This data science guide series is not a source of expertise on each of these trades; however, I've worked on large technical projects with teams that cover most areas of expertise and through this guide seek to share ways to combine these capabilities to tackle real world problems.
 
-For managers or founders cultivating projects in this space, it is worthwhile to be versed in these technologies at a high level and/or to be able to rapidly prototype your ideas. You don’t need to know all the parts to get underway, and I’ll try to setup the guide series to allow you to jump into the sections of interest. The Guides and Chapters are not completely autonomous, the "core setup" in [Quickstart&gt;CH0&gt;Getting Started](/ch0-getting-started.md) is relevant to all chapters and is provided separately to avoid repetition.  You should install the “core setup” first to get your laptop "fully operational."
+For managers or founders cultivating projects in this space, it is worthwhile to be versed in these technologies at a high level and/or to be able to rapidly prototype your ideas. You don’t need to know all the parts to get underway, and I’ll try to setup the guide series to allow you to jump into the sections of interest. The guides and chapters in this series are not completely autonomous, the "[core setup](/ch0-getting-started.md)" in this guide is required for all and is provided separately to avoid repetition.  You should install the “core setup” first to get your laptop "fully operational."
 
 ### **Opinions**
 
-I express strongly-held opinions in this guide. There are many ways to skin an octocat but over time I’ve found the tools described herein to be effective and work well together. They provide a start point for your data science adventures; however, you may eventually come to prefer alternative editors, package managers, etc… and the landscape is constantly evolving.**  **
+I express strongly-held opinions in this guide. There are many ways to skin an octocat but over time I’ve found the tools described herein to be effective and work well together. They provide a starting point for your data science adventures; however, you may eventually come to prefer alternative editors, package managers, etc… and the landscape is constantly evolving.**  **
 
 ### **Core components?**
 
