@@ -35,7 +35,7 @@ See [Package Managers \(Conda\)](/ch1-package-managers.md)
 
 R \(another fantastic language\) was written initially by statisticians for statisticians; in that capacity it is excellent. Indeed my university stats professor was an early adopter. He'd tired of developing methods only to have to pay a license so his students could use an outdated version of his own method. Unfortuntely, from teaching and training colleagues and students, I've found the learning curve can be needlessly steep, it is mostly limited to analytics, the input/output is excruciating, and  the parts don’t quite work together. You can get around many of these issues with Python. However, if you are doing an analysis it is **THE** definitive source of packages and the **dataframe** concept is pure genius. RShiny has made it easy to share your results online, RStudio is a slick graphical user interface \(GUI\), and the stats libraries are industry standard \(period\).
 
-#### **Installing R**
+#### **Installing R \(with Conda\)**
 
 **Just the core**
 
@@ -48,21 +48,27 @@ brew tap homebrew/science
 brew install Rbrew install Caskroom/cask/rstudio
 ```
 
-### **Python vs R \(moreso Python plus R\)**
+### **Python vs R, moreso Python plus R**
 
-I consider Python to be more versatile for my use case as a full-stack data scientist. So, how does one get the benefits of R without the hassles of R,
+I consider Python to be more versatile for my use case as a full-stack data scientist. So, how does one get the benefits of R without the downsides of R.
 
-1\) Embed R in Python code to access the libraries
+1\) Call R from Python to access the libraries
 
-2\) Use Pandas dataframes in Python
+2\) Pandas dataframes in Python
 
-**Calling R from Python**
+
+
+#### 1\) **Calling R from Python**
+
+##### Install RPY2
 
 ```
 conda install rpy2Jupyter notebook
 ```
 
-**In Jupyter**
+
+
+##### Load and run RPY2 i**n a Jupyter Notebook**
 
 Point your browser to ** **[http://localhost:8888/](http://localhost:8888/%29**%29 \)
 
@@ -73,31 +79,31 @@ Then enter this into the first cell and press CMD⌘ + Enter\`
 %R X=c(1,4,5,7); sd(X); mean(X)
 ```
 
-**  
-This should return**
+This should return
 
-`array([ 4.25])`
+```
+array([ 4.25])
+```
 
 ## ![](/assets/image9.png)
 
-**Pandas DataFrames**
+#### 2\) **Pandas DataFrames**
 
-Pandas Dataframes revolutionized the Python workflow and were an R-killer for me. Beyond dataframes, I find Pandas is THE most useful framework for analytics in Python. A DataFrame can be conceptualized like a souped up Excel spreadsheet. You have a grid with rows and columns of data, except the cells can contain diverse of types of information, beyond a simple value, e.g. arrays, lists, dictionaries. A DataFrame consists of 3 keys components: the data, the index, and the columns.
+Pandas DataFrames revolutionized the Python workflow and were an R-killer for me. Beyond dataframes, I find Pandas to be **THE **most useful framework for analytics in Python. A DataFrame can be conceptualized like a souped-up Excel spreadsheet. You have a grid with rows and columns of data, except the cells can contain diverse of types of information, beyond a simple value, such as arrays, lists, dictionaries. A DataFrame consists of 3 keys components: the data, the index, and the columns.
 
-The definiative guide to Pandas is written by Wes Mckinney, the author of the package/concept. Here is a new 2nd edition available as of Sept 25, 2017. I can't recommend this book enough.
+The definiative guide to Pandas is written by Wes Mckinney, the author of the package/concept. There is a new 2nd edition available as of Sept 25, 2017. I can't recommend this book enough...
 
 ![](/assets/pandas.png)[Python for Data Analysis Book](http://wesmckinney.com/pages/book.html)
 
-**Here’s an intro to DataFrames**
+**Intro to DataFrames**
 
-[**https://codingnetworker.com/2016/09/pandas-dataframes-101/**](https://codingnetworker.com/2016/09/pandas-dataframes-101/)
+> [**https://codingnetworker.com/2016/09/pandas-dataframes-101/**](https://codingnetworker.com/2016/09/pandas-dataframes-101/)
 
-**And, an intro to Pandas**
+**Intro to Pandas**
 
-[**https://pandas.pydata.org/pandas-docs/stable/10min.html**](https://pandas.pydata.org/pandas-docs/stable/10min.html)**                      
-**
+> [**https://pandas.pydata.org/pandas-docs/stable/10min.html**](https://pandas.pydata.org/pandas-docs/stable/10min.html)**                      **
 
-Combining Python, DataFrames and R
+### Combining Python, DataFrames, and R
 
 Let’s graph a Python dataframe with R’s GGplot
 
@@ -129,7 +135,7 @@ ggplot(df) + geom_density(aes(x=value))
 
 ## **Javascript**
 
-**                      
+**                        
 **
 
 ## **Scala**
