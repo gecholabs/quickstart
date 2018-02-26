@@ -30,7 +30,9 @@ c\)[ Chapters 1-5](/ch1-package-managers.md) : Read the entire guide to learn mo
 
 We recommend you just pull the ripcord and run the [Quickstart](#0-quickstart-tldr), then you can play with the tools as you go and run examples from this Guide and others in the [GECHO](https://gecho.org/guides) guide collection. You can always uninstall the stuff you don't need or like; what's more we use package managers to isolate the software you install from the system  so it "should" not affect your core machine.
 
-## 0\) Q**uickstart \(tl;dr\)**
+## Get to know your terminal
+
+Using the terminal is critical for a data scientist. Here's a howdy do.
 
 **Options to open your terminal:**
 
@@ -48,32 +50,32 @@ Yours may be transparent and the fonts may be small. You can change this in the 
 
 ![](/assets/image14.png)
 
-**                                            
+**                                              
 **
 
 ![](/assets/image4.png)
 
 ---
 
-**Quickstart installation**
+## 0\) Q**uickstart \(tl;dr\)**
 
-If you don’t feel like reading details about the tools, just run these scripts in the terminal and you’ll be good to go:
+Too long; didn't read. If you don’t feel like reading details about the tools, just copy and pasta this code into your terminal and you should be good to go.
 
 ```bash
-# 1 - install and update homebrew (package manager)
+## 1 - install and update homebrew (package manager)
 ruby -e"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install\)"
 brew update && brew upgrade
 
-# 2 - Install Anaconda Python (scripting language)
+## 2 - Install Anaconda Python (scripting language)
 brew cask install Anaconda
 
-# 3 - Install Git (version control)
+## 3 - Install Git (version control)
 brew install git
 
-# 4 - Install Atom (code editor)
+## 4 - Install Atom (code editor)
 brew cask install atom
 
-# 5 - Open a Jupyter notebook and preview at http://localhost:8888/
+## 5 - Open Jupyter (lab notebook) and preview in your browser at http://localhost:8888/
 jupyter notebook
 ```
 
