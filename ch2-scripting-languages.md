@@ -1,25 +1,41 @@
 # CH 2 - **Scripting \(Programming\) Languages**
 
-I found the Python language via R. Specifically, I did the analyses for dissertation exclusively in R. When I was trying to develop a web interface to my results \(pre R-Shiny\), I stumbled across Ruby on Rails and RSRuby. As I followed the trail, I realized it was a fork of R2Py and wham, discovered Python. My first experience of PyCon was like walking into Lothlórien. It felt like an epiphany at the time and I’ve never looked back.**              
-**
+I found the Python language via R. Specifically, I did the analyses for my dissertation exclusively in R. When I was trying to develop a web interface to my results \(pre R-Shiny\), I stumbled across Ruby on Rails and RSRuby. As I followed the trail, I realized it was a fork of R2Py and wham, discovered Python. My first experience of PyCon was like walking into Lothlórien. It felt like an epiphany at the time and I’ve never looked back.
 
 ![](/assets/image1.png)
 
-## Python and R
+## Python plus R \(the killer combo\)
 
-### **Why Python \(my favorite language\)**
+### **Why Python \(my personal favorite\)**
 
 * It’s relatively easy to get started
 
-* You get all the other languages you need with it \(e.g. R, Scala, C\)
+* You get the other languages you need with it \(e.g. R, Scala, C\)
 
-* It’s a Swiss Army Knife: you can do everything from web development to natural language to video games to to robotics and hacking
+* It’s a Swiss Army Knife for everything from web development to natural language to video games to robotics and hacking
 
 * One ring to rule them all
 
+#### Installing Python \(Conda Distribution\)
+
+I’m hesitant to recommend a particular vendor, but installing Python for scientific computing can be a challange. The Anaconda \(yes, it's a snake ... get it\) folks have resolved many of headaches \(e.g. SciPy installation\)
+
+> From [https://www.continuum.io/downloads](https://www.continuum.io/downloads)
+
+```
+#install anaconda python with Homebrew
+brew cask install Anaconda
+```
+
+#### Maintaining Python \(Conda Distribution\)
+
+See [Package Managers \(Conda\)](/ch1-package-managers.md)
+
+
+
 ### **What About R**
 
-R \(another fantastic language\) was written initially by statisticians for statisticians; in that capacity it is excellent. Indeed my univeristy stats proffessor was an early adopter. He'd grown tired of developing methods only to have to pay a license so his students could use an outdated version of his method. Unfortuntely, from teaching and training colleagues and students, I've found the learning curve can be needlessly steep, it is mostly limited to analytics, the input/output is excruciating, and  the parts don’t quite work together. However, if you are doing an analysis it is THE definitive source of packages and the **dataframe** concept is pure genius. RShiny has made it easy to share your results online, RStudio is slick, and the stats libraries are industry standard.
+R \(another fantastic language\) was written initially by statisticians for statisticians; in that capacity it is excellent. Indeed my university stats professor was an early adopter. He'd tired of developing methods only to have to pay a license so his students could use an outdated version of his own method. Unfortuntely, from teaching and training colleagues and students, I've found the learning curve can be needlessly steep, it is mostly limited to analytics, the input/output is excruciating, and  the parts don’t quite work together. However, if you are doing an analysis it is **THE** definitive source of packages and the **dataframe** concept is pure genius. RShiny has made it easy to share your results online, RStudio is slick, and the stats libraries are industry standard.
 
 **Installing R**
 
@@ -80,7 +96,7 @@ The definiative guide to Pandas is written by Wes Mckinney, the author of the pa
 
 **And, an intro to Pandas**
 
-[**https://pandas.pydata.org/pandas-docs/stable/10min.html**](https://pandas.pydata.org/pandas-docs/stable/10min.html)**              
+[**https://pandas.pydata.org/pandas-docs/stable/10min.html**](https://pandas.pydata.org/pandas-docs/stable/10min.html)**                  
 **
 
 Combining Python, DataFrames and R
@@ -115,7 +131,10 @@ ggplot(df) + geom_density(aes(x=value))
 
 ## **Javascript**
 
-**              
+**                  
 **
 
 ## **Scala**
+
+
+
