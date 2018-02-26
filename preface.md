@@ -2,6 +2,10 @@
 
 This is a guide to the tools required for getting started for scientific computing for global health ecology e.g., data science, data engineering and scientific web development. This includes a compilation of installation notes to get underway.
 
+**Version**
+
+_v0.11 - 26 Feb 2018_
+
 **How to use?**
 
 1. Follow the steps
