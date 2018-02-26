@@ -11,5 +11,5 @@
 * [CH5 - Lab Notebooks](ch5-lab-notebooks.md)
 * [REFERENCES](refs.md)
 * [AUTHORS](authors.md)
-* Release Notes
+* [Release Notes](release-notes.md)
 
