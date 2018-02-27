@@ -50,7 +50,7 @@ Yours may be transparent and the fonts may be small. You can change this in the 
 
 ![](/assets/image14.png)
 
-**                                                              
+**                                                                
 **
 
 ![](/assets/image4.png)
@@ -201,7 +201,7 @@ Tips**
 atom myworkfolder
 ```
 
-##  or from the directory
+        or, from the directory
 
 ```
  atom .
