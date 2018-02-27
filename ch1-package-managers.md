@@ -134,6 +134,22 @@ When you want to upgrade it you can "unpin"
 brew unpin XYZ
 ```
 
+### Tapping new repositories
+
+There are repos that have been curated by communities such as scientific or geospatial programmers. These are kept in seperate repos in part becuase they are not standard issue and have a smaller audience. Here is a list of some interesting repos:
+
+> [https://github.com/Homebrew/homebrew/wiki/Interesting-Taps-&-Branches](https://github.com/Homebrew/homebrew/wiki/Interesting-Taps-&-Branches)
+
+The scientific goods are here:
+
+```
+brew tap homebrew/science
+```
+
+These packages are now available with your standard brew install.
+
+> **==IN PROGRESS BELOW==**
+
 ### 1\) **Conda**
 
 Manages packages \(especially Python\) in your Anaconda environment \(curated by Anaconda - formerly Continuum IO\). This system is used specifically to manage python libraries with the Anaconda installation
@@ -191,4 +207,8 @@ Manages your Node.js javascript packages
 ## Conclusions
 
 There are more coming down the pipe, and referenced in this guide, but it is worth using these for now.
+
+References
+
+
 
