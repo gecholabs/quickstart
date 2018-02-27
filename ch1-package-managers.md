@@ -31,9 +31,13 @@ brew install ${binaries[@]}
 
 I currently use four different package managers for data science:
 
-### 0\) **Homebrew**
+## 0\) **Homebrew**
 
 Homebrew manages the setup of software on your Mac. Homebrew is invaluable and leaves your system settings untouched. Homebrew is the self-described "missing package manager for Mac OSX." It is a beer-themed package management system, e.g. you "tap" a repository to access files.
+
+Homebrew supplants deprecated managers like: MacPorts and Fink.
+
+### Core commands:
 
 #### **Install Homebrew**
 
@@ -78,6 +82,8 @@ To uninstall software use brew uninstall XYZ, e.g.
 brew uninstall XYZ
 ```
 
+### More commands
+
 #### List packages
 
 To list Homebrew installed software
@@ -120,7 +126,7 @@ Other packages outside the core are managed in seperate repositories you may nee
 BREW TAP?
 ```
 
-#### Freezing packages
+#### Freezing package versions
 
 In the scenario described above where you don't want to upgrade a package because it may break your code, you can freeze a package with the "pin" command
 
@@ -134,7 +140,21 @@ When you want to upgrade it you can "unpin"
 brew unpin XYZ
 ```
 
-### Tapping new repositories
+#### Jumping among versions
+
+You can also switch versions, with the switch command
+
+```
+brew switch python 2.7
+```
+
+To see which versions you have installed
+
+```
+brew list --versions python
+```
+
+#### Tapping new repositories
 
 There are repos that have been curated by communities such as scientific or geospatial programmers. These are kept in seperate repos in part becuase they are not standard issue and have a smaller audience. Here is a list of some interesting repos:
 
@@ -148,7 +168,13 @@ brew tap homebrew/science
 
 These packages are now available with your standard brew install.
 
-> **==IN PROGRESS BELOW==**
+When you're done science-ing
+
+```
+brew untap homebrew/science
+```
+
+> **==IN PROGRESS BELOW \(Thar be dragons\)==**
 
 ### 1\) **Conda**
 
@@ -186,11 +212,13 @@ Manages Python across your machine \(curated by Python community\). This environ
 
 #### List packages
 
-### 3\) **NPM**
+### 3\) Node \(**NPM/Yarn\)**
 
-Manages your Node.js javascript packages
+These tools manage your Node.js javascript packages. I've very recently migrated to Yarn, it just seems to work better for me. I spent a whole afternoon fighting npm dependencies and yarn fixed the issue in one shot \(n=1\).
 
 #### Install NPM
+
+
 
 #### Maintain NPM
 
@@ -208,7 +236,7 @@ Manages your Node.js javascript packages
 
 There are more coming down the pipe, and referenced in this guide, but it is worth using these for now.
 
-References
+# References
 
-
+[**2014 - Keeping Your Homebrew Up to Date - Safari Blog**](https://www.safaribooksonline.com/blog/2014/03/18/keeping-homebrew-date/)
 

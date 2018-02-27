@@ -131,10 +131,48 @@ ggplot(df) + geom_density(aes(x=value))
 
 ## **Javascript**
 
-_\(in progress\)_**                          
-**
+_\(in progress\)_**   **
+
+Javascript has taken over my visualization layer. It may also someday take over my modeling work. I do my web developement with Node.js and visualizations with D3.js.
+
+Use homebrew to install nvm
+
+```
+brew install nvm
+nvm install 0.10
+nvm alias default 0.10
+```
+
+To make the Node availalbe on the command line, add it to your .bash\_profile, e.g.
+
+```
+cd ~
+atom .bash_profile
+```
+
+Then paste in
+
+```
+source $(brew --prefix nvm)/nvm.sh
+```
+
+Upgrade to the latest npm
+
+```
+npm install -g npm@latest
+```
 
 ## **Scala**
 
 _\(in progress\)_
+
+Scala has quickly become the language of distributed processing. This allows data scientists to run massive compute jobs across multiple machines \(nodes\). The language has some similarities in syntax to Java \(no relation to Javascript\), so it can be picked up quickly by comp sci students with Java backgrounds and developers can be easier to find and retrain.
+
+Our main use for Scala has been for programming Spark. This is THE solution for distributed processing, it supplants Hadoop and its derivates for doing massive MapReduce computations and other distributed tasks. You can get away with using PySpark, the python bindings,  but we've found that they lag the release of Scala capabilities for Spark. It is worth adding this language to your coding quiver.
+
+
+
+
+
+
 
