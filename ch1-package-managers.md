@@ -10,7 +10,7 @@ Packages can be kept seperate from the software shipped with your machine. For e
 
 This is imporant for the reproducibility of a scientist's work. For instance, you may develop an analysis that uses multiple libraries, then update software for some other application, and suddenly your code won't load or, worse, the software returns subtly different results. Package managers partially help in this situation, you can easily roll back the version and its dependencies; however, a true solution also necessitates virtual containers to freeze complete versions of the code used for the analysis. These containers could be run years later with the same old code versions and consistent results. We will discuss containerization in a future guide. For now, we will discuss using package managers to facilitate loading software and protecting your core system from installation side effects.
 
-Another important aspect of reproducibility is to ensure consistent results across machines and quickly setup new machines. You can install your packages with simple shell scripts that run in the terminal and can be managed by a lab group in a shared repository with everyone on the team. If you change laptops you can quickly get up an running again or help setup your colleagues and students. As you find bugs, one person's fix becomes everyones solution, rather than everyone debugging and solving installation on their own. Indeed, half of the notes in my Evernote collection are just recipes for getting programs to work. Without sharing them, my colleagues will have need to run into and solve the same problems in turn. This scenario can be overcome  with scripts, packaging, the crowd, and open source. You could eventually contribute  back to the packaging community or write a helpful blog post. I keep a record of the software I install in a large batch file. I'll clean up and share this file in a later version. Essentially, it looks like this:
+Another important aspect of reproducibility is to ensure consistent results across machines and quickly setup new machines. You can install your packages with simple shell scripts that run in the terminal and can be managed by a lab group in a shared repository with everyone on the team. If you change laptops you can quickly get up an running again or help setup your colleagues and students. As you find bugs, one person's fix becomes everyone's solution, rather than everyone debugging and solving installation on their own. Indeed, half of the notes in my Evernote collection are just recipes for getting programs to work. Without sharing them, my colleagues will have need to run into and solve the same problems in turn. This scenario can be overcome  with scripts, packaging, the crowd, and open source. You could eventually contribute  back to the packaging community or write a helpful blog post. I keep a record of the software I install in a large batch file. I'll clean up and share this file in a later version. Essentially, it looks like this:
 
 ```
 # Useful binaries
@@ -33,7 +33,7 @@ I currently use four different package managers for data science:
 
 ### 0\) **Homebrew**
 
-Homebrew manages the setup of software on your Mac. Homebrew is invaluable and leaves your system settings untouched. Homebrew is the self-described "missing package manager for Mac OSx." It is a beer-themed package management system, e.g. you tap a repository to access files.
+Homebrew manages the setup of software on your Mac. Homebrew is invaluable and leaves your system settings untouched. Homebrew is the self-described "missing package manager for Mac OSX." It is a beer-themed package management system, e.g. you "tap" a repository to access files.
 
 #### **Install Homebrew**
 
@@ -52,7 +52,7 @@ To check on the health of your packages, e.g. check for updates and verify confi
 brew doctor
 ```
 
-You can usually ignore any warnings, they are just a suggestion. If something needs fixing Brew Doctor will give you the command you need to run. Most of these are safe to run. It is very satisfying to have a clean bill of health from the Brew Doctors.
+You can usually ignore any warnings, they are just a suggestion. If something needs fixing Brew Doctor will give you the command you need to run. Most of these are safe to run. It is very satisfying to have a clean bill of health from the Brew Doctor.
 
 To maintain your home brew, these commands are usually run together
 
@@ -61,6 +61,8 @@ brew update && brew upgrade
 ```
 
 #### Install packages
+
+Packages exist as formulae available from the main repository, while others are in sub-repositories that you need to tap first.
 
 To install software use the syntax brew install XYZ, e.g.
 
@@ -73,15 +75,27 @@ brew install python
 To uninstall software use brew uninstall XYZ, e.g.
 
 ```
-brew uninstall python
+brew uninstall XYZ
 ```
 
 #### List packages
 
 To list Homebrew installed software
 
+```
+brew list
+```
+
+or
+
 ```rust
 ls /usr/local/cellar
+```
+
+or, to get info on a particular package
+
+```
+brew info XYZ
 ```
 
 #### Find packages
@@ -100,10 +114,24 @@ Some full software suites, or binaries are managed with brew cask, for example:
 brew CASK INSTALL?
 ```
 
-Other packages outside the core are managed in seperate repositories you may need to tap. For example, some favorite scientific and geospatial repositories are here:
+Other packages outside the core are managed in seperate repositories you may need to tap. For example, some favorite scientific and geospatial repositories are found on tap:
 
 ```
 BREW TAP?
+```
+
+#### Freezing packages
+
+In the scenario described above where you don't want to upgrade a package because it may break your code, you can freeze a package with the "pin" command
+
+```
+brew pin XYZ
+```
+
+When you want to upgrade it you can "unpin"
+
+```
+brew unpin XYZ
 ```
 
 ### 1\) **Conda**
