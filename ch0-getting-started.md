@@ -4,17 +4,17 @@
 
 #### **Chapter Contents:**
 
-**0\)** Quickstart \(tl;dr\)
+**0\)** [Quickstart](#0-quickstart-tldr) \(tl;dr\)
 
-**1\)** Package Manager \(Homebrew\)
+**1\)** [Package Manager](#1-package-manager-homebrew) \(Homebrew\)
 
-**2\)** Scripting language \(Python - Anaconda distro\)
+**2\)** [Scripting language](#2-scripting-language-python---anaconda-distro) \(Python - Anaconda distro\)
 
-**3\)** Version Control \(Git\)
+**3\)** [Version Control](#3-version-control-git) \(Git\)
 
-**4\)** Code Editor \(Atom\)
+**4\)** [Code Editor](#4-code-editor-atom) \(Atom\)
 
-**5\)** Lab notebook \(Jupyter\)
+**5\)** [Lab notebook](#5-lab-notebook-jupyter) \(Jupyter\)
 
 ---
 
@@ -50,7 +50,7 @@ Yours may be transparent and the fonts may be small. You can change this in the 
 
 ![](/assets/image14.png)
 
-**                                                            
+**                                                              
 **
 
 ![](/assets/image4.png)
@@ -161,7 +161,7 @@ That will create a tiny system file \(“.git”\) that manages all the "saves" 
 
 ## 4**\) Code Editor \(Atom\)**
 
-> From https://atom.io
+> From [https://atom.io](https://atom.io)
 
 [![](/assets/image6.png)](https://atom.io)
 
@@ -176,13 +176,13 @@ brew cask install atom
 
 **Advantages**
 
-* Built in editors are minimalist and obscure \(e.g. Nano, Pico\); you need a tutorial just to figure out how to insert edits or exit the editor.
+* Built-in editors are minimalist and obscure \(e.g. Nano, Pico\); you need a tutorial just to figure out how to insert edits or exit the editor.
 
 * Power editors \(e.g. Emacs, Vim\) have a steep learning curve, are a gazillion years old, and require constant configuration maintenance. That said, they’re awesome, retro, and nerdy so check them out sometime.
 
 * Atom mostly works out of the box
 
-* It is future friendly and browser based, e.g. usable on Google Chromebook and browser-only devices
+* It is future friendly and browser based, e.g. usable on Google Chromebook and browser-only devices \(check on Crbook\)
 
 * It’s future relevant as social coding moves to the web/cloud
 
@@ -199,6 +199,12 @@ Tips**
 
 ```
 atom myworkfolder
+```
+
+##  or from the directory
+
+```
+ atom .
 ```
 
 ## 5**\) Lab notebook \(Jupyter\)**
