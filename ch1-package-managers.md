@@ -4,7 +4,7 @@
 
 Package managers are used to easily install software on your machine. I used package managers extensively while working with Linux operating systems. Recently,  good variants have become available to Mac OS and this has been a game changer. Packages help ensure software is interoperable. For example, a frequent challenge for new Linux users is compiling code, e.g. turning raw code into a functional application. Most often, the user runs in a series of failed compiles; requiring them to decipher cryptic error messages then compile missing dependencies. With package managers, user benefits from the community \(crowd\) working together to package software and resolve depedencies.
 
-Packages can be kept seperate from the software shipped with your machine. For example, your Mac ships with Python, while you can change or upgrade the core Python installation,  this can introduce issues with other software on your system. A package manager installs to a new isolated directory \(e.g. usr/local/cellar\) where you can install, uninstall, and switch between versions of software packages.
+Packages can be kept seperate from the software shipped with your machine. For example, your Mac ships with Python, while you can change or upgrade the system Python installation, this can introduce weird issues with other software on your system. A package manager, on the other hand, installs to a new isolated directory \(e.g. usr/local/cellar\) where you can install, uninstall, and switch between versions of software packages, without touching your system installations.
 
 **You don't know what you're missing!**
 
