@@ -50,7 +50,7 @@ Yours may be transparent and the fonts may be small. You can change this in the 
 
 ![](/assets/image14.png)
 
-**                                                        
+**                                                          
 **
 
 ![](/assets/image4.png)
@@ -130,7 +130,7 @@ Other users will suggest ways to resolve the dependency. Look for the solutions 
 
 ## 3**\) Version Control \(Git\)**
 
-Versioning is essential to good code management. You’ve probably heard of GitHub, which is where most open source software is hosted, developed, and shared. However, the public code you find is this is just the tip of the iceberg, lots of businesses manage their code in private GitHub or GitLab repositories. You should **always** check the license before you use code \(look for a LICENSE file\), just because it is on Github does not mean it is open source, there are varying degress of open such as in free beer and free speech.
+Versioning is essential to good code management. You’ve probably heard of GitHub, which is where most open source software is hosted, developed, and shared. However, the public code you find is this is just the tip of the iceberg, lots of businesses manage their code in private GitHub or GitLab repositories. You should **always** check the license before you use code \(look for a LICENSE file\), just because it is on Github does not mean it is open source, there are varying degress of open, as in free beer and free speech.
 
 From [**https://github.com/explore**](https://github.com/explore)
 
@@ -145,7 +145,7 @@ brew install git
 
 Git is a distributed version control system. The basic concept is like playing a video game, when you are about the face the boss at the end of a level you might save your game, as “savegame1”, then if you fail you may go back to that, at the next boss you might “savegame2”, etc… This creates a confusing chain of semi-meaningful names. Now you may need to revert to one of these previous versions as you advance, but the nomenclature \(arbitrary numbering\) quickly gets out of hand.
 
-With Git you can make a “commit” \(~save\) as you work and type a “commit message” to remind yourself, and others, of what you did. You can also create a “branch” of your code, that won’t affect the main code, but is where you are develop a new feature. Importantly, you can easily collaborate with others. Just like Google Docs revolutionized the way we edit docs, you can all be working on the same code base; however, you wouldn’t want edits by others edits to suddenly jump into your code and break things. So, there are cultural practices to how the code is managed and merged, as well as gate keepers to the Master branch. Essentially, you can work in separate branches, named for the functionality they are adding \(e.g. “fixing analysis bug”\), when you are ready you propose a “pull request” to a Master branch in the main repo to be peer reviewed and merged by your collaborators. We’ll discuss social coding practices and conventions later. Note that Git can be used for more than just code, you can manage many file types like images, data, and documents. This is useful for building a web site but also can be used to write books like this Guide \(written with Gitbook\).
+With Git you can make a “commit” \(~save\) as you work and type a “commit message” to remind yourself, and others, of what you did. You can also create a “branch” of your code, that won’t affect the main code, but is where you are develop a new feature. Importantly, you can easily collaborate with others with Git. Just like Google Docs revolutionized the way we edit docs, you can all be working on the same code base; however, you wouldn’t want edits by others edits to suddenly jump into your code and break things. So, there are cultural practices to how the code is managed and merged, as well as gate keepers to the Master branch. Essentially, you can work in separate branches, named for the functionality they are adding \(e.g. “fixing analysis bug”\), when you are ready you propose a “pull request” to a Master branch in the main repo to be peer reviewed and merged by your collaborators. We’ll discuss social coding practices and conventions later. Note that Git can be used for more than just code, you can manage many file types like images, data, and documents. This is useful for building a web site but also can be used to write books like this Guide \(written with Gitbook\).
 
 **To create a git repository in a folder**
 
