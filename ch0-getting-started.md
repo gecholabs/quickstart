@@ -50,7 +50,7 @@ Yours may be transparent and the fonts may be small. You can change this in the 
 
 ![](/assets/image14.png)
 
-**                                                  
+**                                                    
 **
 
 ![](/assets/image4.png)
@@ -118,7 +118,7 @@ The install takes a few minutes and ~3 GB
 
 There is an alternative miniconda package that is minimalist and installs more quickly; however, it doesn’t have the scientific packages \(the main benefit of Anaconda IMHO\).
 
-The alternative way to install python is to use Homebrew and Pip for the dependencies. This can lead to trip ups with dependencies SciPy. To resolve these you’ll need to get good at reading error messages. The best way to solve these is to paste the error message into Stack Overflow
+The alternative way to install python is to use Homebrew and Pip for the dependencies. This can lead to trip ups with dependencies e.g., SciPy. To resolve these you’ll need to get good at reading error messages. The best way to solve these is to paste the error message into Stack Overflow
 
 [**https://stackoverflow.com/**](https://stackoverflow.com/)
 
@@ -221,13 +221,9 @@ You can find gazillions of fully-annotated Jupyter notebooks in the wild, in pla
 
 ![](/assets/ipython notecooks.png)
 
-
-
 You can also increasingly find Appendices to scientific papers in this format, for example:
 
 [**Predicting Coronal Mass Ejections Using Machine Learning Methods**](http://dx.doi.org/10.3847/0004-637X/821/2/127) by Monica Bobra and Stathis Ilonidis \(Astrophysical Journal, 2016\). An [**IPython notebook**](http://nbviewer.jupyter.org/github/mbobra/machine-learning-with-solar-data/blob/master/cme_svm.ipynb), which reproduces all the results, has been permanently deposited in the [**Stanford Digital Repository**](https://purl.stanford.edu/wt605kh4712).
-
-
 
 [![](/assets/coronal.png)](http://nbviewer.jupyter.org/github/mbobra/machine-learning-with-solar-data/blob/master/cme_svm.ipynb)
 
