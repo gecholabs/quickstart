@@ -6,6 +6,8 @@ Package managers are used to easily install software on your machine. I used pac
 
 Packages can be kept seperate from the software shipped with your machine. For example, your Mac ships with Python, while you can change or upgrade the core Python installation,  this can introduce issues with other software on your system. A package manager installs to a new isolated directory \(e.g. usr/local/cellar\) where you can install, uninstall, and switch between versions of software packages.
 
+**You don't know what you're missing!**
+
 This is imporant for the reproducibility of a scientist's work. For instance, you may develop an analysis that uses multiple libraries, then update software for some other application, and suddenly your code won't load or, worse, the software returns subtly different results. Package managers partially help in this situation, you can easily roll back the version and its dependencies; however, a true solution also necessitates containers to freeze complete versions of the code used for the analysis. These containers could be run years later with the same old code versions and consistent results. We will discuss containerization in a later guide. For now, we will discuss using package managers to facilitate loading software and protecting your core system from installation side effects.
 
 Another important aspect of reproducibility is to ensure consistent results across machines and quickly setup new machines. You can install your packages with simple shell scripts that run in the terminal and can be managed by a lab group in a shared repository with everyone on the team. If you change laptops you can quickly get up an running again or help setup your colleagues and students. As you find bugs, one person's fix becomes everyones solution, rather than everyone debugging and solving installation on their own. Indeed, half of the notes in my Evernote collection are just recipes for getting programs to work. Without sharing them, my colleagues will have need to run into and solve the same problems in turn. This scenario can be overcome  with scripts, packaging, the crowd, and open source. You could eventually contribute  back to the packaging community or write a helpful blog post. I keep a record of the software I install in a large batch file. I'll clean up and share this file in a later version. Essentially, it looks like this:
@@ -110,31 +112,17 @@ Manages packages \(especially Python\) in your Anaconda environment \(curated by
 
 #### Install Conda
 
-
-
 #### Maintain Conda
-
-
 
 #### Install packages
 
-
-
 #### Uninstall packages
-
-
 
 #### Maintain packages
 
-
-
 #### Find packages
 
-
-
 #### List packages
-
-
 
 ### 2\) **Pip**
 
@@ -142,27 +130,15 @@ Manages Python across your machine \(curated by Python community\). This environ
 
 #### Install Pip
 
-
-
 #### Maintain Pip
-
-
 
 #### Install packages
 
-
-
 #### Uninstall packages
-
-
 
 #### Maintain packages
 
-
-
 #### Find packages
-
-
 
 #### List packages
 
@@ -172,27 +148,15 @@ Manages your Node.js javascript packages
 
 #### Install NPM
 
-
-
 #### Maintain NPM
-
-
 
 #### Install packages
 
-
-
 #### Uninstall packages
-
-
 
 #### Maintain packages
 
-
-
 #### Find packages
-
-
 
 #### List packages
 
