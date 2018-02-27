@@ -1,3 +1,17 @@
+# 
+
+# 
+
+# 
+
+# 
+
+# 
+
+# 
+
+# 
+
 # CH 2 - **Scripting \(Programming\) Languages**
 
 I found the Python language via R. Specifically, I did the analyses for my dissertation exclusively in R. When I was trying to develop a web interface to my results \(pre R-Shiny\), I stumbled across Ruby on Rails and RSRuby. As I followed the trail, I realized it was a fork of R2Py and wham, discovered Python. My first experience of PyCon was like walking into Lothlórien. It felt like an epiphany at the time and I’ve never looked back.
@@ -169,10 +183,4 @@ _\(in progress\)_
 Scala has quickly become the language of distributed processing. This allows data scientists to run massive compute jobs across multiple machines \(nodes\). The language has some similarities in syntax to Java \(no relation to Javascript\), so it can be picked up quickly by comp sci students with Java backgrounds and developers can be easier to find and retrain.
 
 Our main use for Scala has been for programming Spark. This is THE solution for distributed processing, it supplants Hadoop and its derivates for doing massive MapReduce computations and other distributed tasks. You can get away with using PySpark, the python bindings,  but we've found that they lag the release of Scala capabilities for Spark. It is worth adding this language to your coding quiver.
-
-
-
-
-
-
 
