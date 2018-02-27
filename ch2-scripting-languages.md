@@ -1,5 +1,3 @@
-
-
 # 
 
 # 
@@ -139,9 +137,13 @@ ggplot(df) + geom_density(aes(x=value))
 
 _\(in progress\)_**   **
 
-Javascript has taken over my visualization layer. It may also someday take over my modeling work. I do my web developement with Node.js and visualizations with D3.js.
+Javascript has taken over our visualization layer. It may also someday take over our modeling work. We do our web developement with Node.js and visualizations with D3.js.
 
-Use homebrew to install nvm
+### Node.js
+
+Node.js is a full-stack framework for web development. It has recently supplanted a variety of Python, .Net, Ruby, and PHP frameworks \(remember this is opinionated\). Full-stack in this instance means, that both the back- and front-end is accomplished with Node in Javascript. You don't have a web visualization layer in one language calling back to a server in another.
+
+To install Node.js, use homebrew to install nvm
 
 ```
 brew install nvm
@@ -162,7 +164,7 @@ Then paste in
 source $(brew --prefix nvm)/nvm.sh
 ```
 
-Upgrade to the latest npm
+Upgrade to the latest Node package manager \(npm\)
 
 ```
 npm install -g npm@latest

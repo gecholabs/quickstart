@@ -174,7 +174,7 @@ When you're done science-ing
 brew untap homebrew/science
 ```
 
-> **==IN PROGRESS BELOW \(Thar be dragons\)==**
+> **==IN PROGRESS BELOW \(Thar be dragons ...\)==**
 
 ### 1\) **Conda**
 
@@ -218,11 +218,35 @@ These tools manage your Node.js javascript packages. I've very recently migrated
 
 #### Install NPM
 
-
+It comes bundled with Node.js. See installing node.js in [CH2](/ch2-scripting-languages.md)
 
 #### Maintain NPM
 
+Upgrade to the latest Node package manager \(npm\)
+
+```
+npm install -g npm@latest
+```
+
 #### Install packages
+
+Node has a concept of local and global installations. the -g flag makes the package available across your system, e.g.
+
+```
+npm install -g XYZ
+```
+
+Whereas the --save flag makes it available only with that folder. 
+
+```
+npm install --save XYZ
+```
+
+Local installation also saves the package name to a node\_packages file within that folder, so it can be recreated when you ship the code with the command
+
+```
+npm install
+```
 
 #### Uninstall packages
 
