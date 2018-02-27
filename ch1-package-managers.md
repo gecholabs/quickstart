@@ -214,7 +214,7 @@ Manages Python across your machine \(curated by Python community\). This environ
 
 ### 3\) Node \(**NPM/Yarn\)**
 
-These tools manage your Node.js javascript packages. I've very recently migrated to Yarn, it just seems to work better for me. I spent a whole afternoon fighting npm dependencies and yarn fixed the issue in one shot \(n=1\).
+These tools manage your Node.js javascript packages. I've very recently migrated to Yarn, it just seems to work better for me. I recently spent a whole afternoon fighting npm dependencies and yarn fixed the issue in one shot. Despite my n=1, this seems to be broader trend.
 
 #### Install NPM
 
@@ -236,7 +236,7 @@ Node has a concept of local and global installations. the -g flag makes the pack
 npm install -g XYZ
 ```
 
-Whereas the --save flag makes it available only with that folder. 
+Whereas the --save flag makes it available only with that folder.
 
 ```
 npm install --save XYZ
