@@ -50,7 +50,7 @@ Yours may be transparent and the fonts may be small. You can change this in the 
 
 ![](/assets/image14.png)
 
-**                                                          
+**                                                            
 **
 
 ![](/assets/image4.png)
@@ -83,7 +83,7 @@ jupyter notebook
 
 ## 1**\) Package Manager \(Homebrew\)**
 
-Linux remains my favorite OS. Almost every website you visit is run by a Linux-flavored server. One of the best features of Linux are the package managers. Think of a package as being an “application” or “program that you install, that can range from a full text editor \(atom\) or scripting language \(e.g. Python\) to a helper script that auto-completes code for you.
+Linux remains my favorite OS. Almost every website you visit is run by a Linux-flavored server. One of the best features of Linux are the package managers. Think of a package as being an “application” or “program" that you install, that can range from a full text editor \(atom\) or scripting language \(e.g. Python\) to a helper script that auto-completes code for you.
 
 The benefit of package managers is that if you can keep your code separate from your operating system \(OS\) and other software. Otherwise, as you install stuff you could clobber your machine settings, slow things down, or introduce error to other projects due to dependency issues. A package manager keeps software installations separate. For example, by default, software installed by Homebrew is put in the folder /usr/local/cellar.
 
@@ -132,7 +132,7 @@ Other users will suggest ways to resolve the dependency. Look for the solutions 
 
 Versioning is essential to good code management. You’ve probably heard of GitHub, which is where most open source software is hosted, developed, and shared. However, the public code you find is this is just the tip of the iceberg, lots of businesses manage their code in private GitHub or GitLab repositories. You should **always** check the license before you use code \(look for a LICENSE file\), just because it is on Github does not mean it is open source, there are varying degress of open, as in free beer and free speech.
 
-From [**https://github.com/explore**](https://github.com/explore)
+> From [**https://github.com/explore**](https://github.com/explore)
 
 ![](/assets/image12.png)**            **
 
@@ -145,7 +145,7 @@ brew install git
 
 Git is a distributed version control system. The basic concept is like playing a video game, when you are about the face the boss at the end of a level you might save your game, as “savegame1”, then if you fail you may go back to that, at the next boss you might “savegame2”, etc… This creates a confusing chain of semi-meaningful names. Now you may need to revert to one of these previous versions as you advance, but the nomenclature \(arbitrary numbering\) quickly gets out of hand.
 
-With Git you can make a “commit” \(~save\) as you work and type a “commit message” to remind yourself, and others, of what you did. You can also create a “branch” of your code, that won’t affect the main code, but is where you are develop a new feature. Importantly, you can easily collaborate with others with Git. Just like Google Docs revolutionized the way we edit docs, you can all be working on the same code base; however, you wouldn’t want edits by others edits to suddenly jump into your code and break things. So, there are cultural practices to how the code is managed and merged, as well as gate keepers to the Master branch. Essentially, you can work in separate branches, named for the functionality they are adding \(e.g. “fixing analysis bug”\), when you are ready you propose a “pull request” to a Master branch in the main repo to be peer reviewed and merged by your collaborators. We’ll discuss social coding practices and conventions later. Note that Git can be used for more than just code, you can manage many file types like images, data, and documents. This is useful for building a web site but also can be used to write books like this Guide \(written with Gitbook\).
+With Git you can make a “commit” \(~save\) as you work and type a “commit message” to remind yourself, and others, of what you did. You can also create a “branch” of your code, that won’t affect the main code, but is where you are develop a new feature. Importantly, you can easily collaborate with others with Git. Just like Google Docs revolutionized the way we edit docs, you can all be working on the same code base; however, you wouldn’t want edits by others edits to suddenly jump into your code and break things. So, there are cultural practices to how the code is managed and merged, as well as gate keepers to the Master branch. Essentially, you can work in separate branches, named for the functionality they are adding \(e.g. “fixing analysis bug”\), when you are ready you propose a “pull request” to a Master branch in the main repo to be peer reviewed and merged by your collaborators. We’ll discuss social coding practices and conventions [later](/ch3-version-control.md). Note that Git can be used for more than just code, you can manage many file types like images, data, and documents. This is useful for building a web site but also can be used to write books like this Guide \(written with Gitbook\).
 
 **To create a git repository in a folder**
 
@@ -157,11 +157,13 @@ That will create a tiny system file \(“.git”\) that manages all the "saves" 
 
 [**http://rogerdudler.github.io/git-guide/**](http://rogerdudler.github.io/git-guide/)
 
-![](/assets/image15.png)
+[![](/assets/image15.png)](http://rogerdudler.github.io/git-guide/)
 
 ## 4**\) Code Editor \(Atom\)**
 
-![](/assets/image6.png)
+> From https://atom.io
+
+[![](/assets/image6.png)](https://atom.io)
 
 Code editors are like tricked out word processors \(e.g. MS Word or Pages\) with features like syntax highlighting, pretty layouts, autocompletion, and packages to add language specific enhancements.es
 
