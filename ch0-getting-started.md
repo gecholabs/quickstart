@@ -50,7 +50,7 @@ Yours may be transparent and the fonts may be small. You can change this in the 
 
 ![](/assets/image14.png)
 
-**                                                      
+**                                                        
 **
 
 ![](/assets/image4.png)
@@ -130,7 +130,7 @@ Other users will suggest ways to resolve the dependency. Look for the solutions 
 
 ## 3**\) Version Control \(Git\)**
 
-Versioning is essential to good code management. You’ve probably heard of GitHub, which is where most open source software is hosted, developed, and shared. However, the public code you find is this is just the tip of the iceberg, lots of business manage their code in private GitHub or GitLab repositories. Also you should check the license before you use code \(look for a LICENSE file\), just because it is on Github does not mean it is open source.
+Versioning is essential to good code management. You’ve probably heard of GitHub, which is where most open source software is hosted, developed, and shared. However, the public code you find is this is just the tip of the iceberg, lots of businesses manage their code in private GitHub or GitLab repositories. You should **always** check the license before you use code \(look for a LICENSE file\), just because it is on Github does not mean it is open source, there are varying degress of open such as in free beer and free speech.
 
 From [**https://github.com/explore**](https://github.com/explore)
 
@@ -163,7 +163,7 @@ That will create a tiny system file \(“.git”\) that manages all the "saves" 
 
 ![](/assets/image6.png)
 
-Code editors are like tricked out word processors \(e.g. MS Word or Pages\) with features like syntax highlighting, pretty layouts, autocompletion, and packages to add language specific enhancements.
+Code editors are like tricked out word processors \(e.g. MS Word or Pages\) with features like syntax highlighting, pretty layouts, autocompletion, and packages to add language specific enhancements.es
 
 **To install**
 
